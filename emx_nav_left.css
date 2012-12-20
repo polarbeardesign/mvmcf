@@ -509,3 +509,27 @@ td.storyLeft{
 #pagecell1 #content .feature table tr td div .storyLeft a {
 	font-size: small;
 }
+
+
+/**************** Polar Bear Design styles *****************/
+
+.row {
+  float: left;
+  }
+
+.cell {
+  float: left;
+  }
+
+.hourly {
+  border: collapse;
+  }
+
+.hourly td {
+  border: 1px solid #999;
+  }
+
+.taken {
+  /*background: url("img/taken.jpg");*/
+  background: #cadbeb;
+  }

@@ -96,11 +96,12 @@ font-family: Arial,sans-serif;
 /* Layout Divs                                 */
 /***********************************************/
 #pagecell1{
-	top: 20px;
-	right: 25%;
-	width:870px;
+	/*top: 20px;*/
+	/*right: 25%;*/
+	margin: 20px auto;
+	width: 870px;
 	background-color: #FFFFFF;
-	position: absolute; center
+	/*position: absolute; center*/
 	
 }
 

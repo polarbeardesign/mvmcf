@@ -1,3 +1,207 @@
+<?php
+
+// db connection
+$db_name = "mv_gorge";
+$connection = @mysql_connect("127.0.0.1","jri","tensai14") or die("Couldn't Connect.");
+$db = @mysql_select_db($db_name, $connection) or die("Couldn't select database.");
+
+
+
+date_default_timezone_set("America/Chicago");
+
+  function GetDays($sStartDate, $sEndDate){  
+      // Firstly, format the provided dates.  
+      // This function works best with YYYY-MM-DD  
+      // but other date formats will work thanks  
+      // to strtotime().  
+      $sStartDate = gmdate("Y-m-d", strtotime($sStartDate));  
+      $sEndDate = gmdate("Y-m-d", strtotime($sEndDate));  
+
+      // Start the variable off with the start date  
+     $aDays[] = $sStartDate;  
+
+     // Set a 'temp' variable, sCurrentDate, with  
+     // the start date - before beginning the loop  
+     $sCurrentDate = $sStartDate;  
+
+     // While the current date is less than the end date  
+     while($sCurrentDate < $sEndDate){  
+       // Add a day to the current date  
+       $sCurrentDate = gmdate("Y-m-d", strtotime("+1 day", strtotime($sCurrentDate)));  
+
+       // Add this new day to the aDays array  
+       $aDays[] = $sCurrentDate;  
+     }  
+
+     // Once the loop has finished, return the  
+     // array of days.  
+     return $aDays;  
+   } 
+   
+   
+//$days = array('2013-10-01' => "Oct 1st",'2013-10-02' => "Oct 2nd");
+
+$days = GetDays('2013-10-01', '2014-01-31');
+
+foreach ($days as $key =>$value)
+{
+$today = new DateTime($value);
+$today = date_format($today, 'M jS');
+$display .="<div class=\"cell\">
+<table width=\"100\" class=\"hourly\">
+  <tr>
+    <th> $today </th>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 00:00\">00:00</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 00:30\">00:30</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 01:00\">01:00</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 01:30\">01:30</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 02:00\">02:00</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 02:30\">02:30</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 03:00\">03:00</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 03:30\">03:30</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 04:00\">04:00</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 04:30\">04:30</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 05:00\">05:00</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 05:30\">05:30</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 06:00\">06:00</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 06:30\">06:30</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 07:00\">07:00</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 07:30\">07:30</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 08:00\">08:00</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 08:30\">08:30</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 09:00\">09:00</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 09:30\">09:30</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 10:00\">10:00</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 10:30\">10:30</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 11:00\">11:00</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 11:30\">11:30</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 12:00\">12:00</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 12:30\">12:30</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 13:00\">13:00</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 13:30\">13:30</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 14:00\">14:00</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 14:30\">14:30</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 15:00\">15:00</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 15:30\">15:30</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 16:00\">16:00</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 16:30\">16:30</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 17:00\">17:00</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 17:30\">17:30</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 18:00\">18:00</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 18:30\">18:30</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 19:00\">19:00</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 19:30\">19:30</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 20:00\">20:00</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 20:30\">20:30</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 21:00\">21:00</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 21:30\">21:30</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 22:00\">22:00</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 22:30\">22:30</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 23:00\">23:00</td>
+  </tr>
+  <tr>
+    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 23:30\">23:30</td>
+  </tr>
+</table>
+</div>";
+};
+
+?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -125,496 +329,28 @@ MM_reloadPage(true);
 
 <p>Enter your choice for the hour when the Madison river will gorge. Pick an hour, or several, and make your tax deductible donation to support the Madison Valley Medical Center Foundation (MVMCF). The individual correctly picking the hour the river gorges will win half the proceeds raised.</p>
 
+<p>Use scroll bar at table bottom to scroll to future dates.</p>
+<div class="story"> <img src="img/taken.gif" alt="slider" /> - boxes are taken, please make another selection   </div> 
+
+<form id="gorge1" action="checkout.php" method="post">
 <div class="row">
-
-<div class="cell">
-<table width="100" class="hourly">
-  <tr>
-    <th>Oct 21</th>
-  </tr>
-  <tr>
-    <td>00:00</td>
-  </tr>
-  <tr>
-    <td>01:00</td>
-  </tr>
-  <tr>
-    <td>02:00</td>
-  </tr>
-  <tr>
-    <td>03:00</td>
-  </tr>
-  <tr>
-    <td>04:00</td>
-  </tr>
-  <tr>
-    <td>05:00</td>
-  </tr>
-  <tr>
-    <td>06:00</td>
-  </tr>
-  <tr>
-    <td>07:00</td>
-  </tr>
-  <tr>
-    <td>08:00</td>
-  </tr>
-  <tr>
-    <td>09:00</td>
-  </tr>
-  <tr>
-    <td>10:00</td>
-  </tr>
-  <tr>
-    <td>11:00</td>
-  </tr>
-  <tr>
-    <td>12:00</td>
-  </tr>
-  <tr>
-    <td>13:00</td>
-  </tr>
-  <tr>
-    <td>14:00</td>
-  </tr>
-  <tr>
-    <td>15:00</td>
-  </tr>
-  <tr>
-    <td class="taken">16:00</td>
-  </tr>
-  <tr>
-    <td>17:00</td>
-  </tr>
-  <tr>
-    <td>18:00</td>
-  </tr>
-  <tr>
-    <td>19:00</td>
-  </tr>
-  <tr>
-    <td>20:00</td>
-  </tr>
-  <tr>
-    <td>21:00</td>
-  </tr>
-  <tr>
-    <td>22:00</td>
-  </tr>
-  <tr>
-    <td>23:00</td>
-  </tr>
-</table>
+<div class="scrolls">
+<div class="tables">
+ <?php echo $display ?>
+</div>
 </div>
 
-<div class="cell">
-<table width="100" class="hourly">
-  <tr>
-    <th>Oct 22</th>
-  </tr>
-  <tr>
-    <td>00:00</td>
-  </tr>
-  <tr>
-    <td>01:00</td>
-  </tr>
-  <tr>
-    <td>02:00</td>
-  </tr>
-  <tr>
-    <td>03:00</td>
-  </tr>
-  <tr>
-    <td>04:00</td>
-  </tr>
-  <tr>
-    <td>05:00</td>
-  </tr>
-  <tr>
-    <td>06:00</td>
-  </tr>
-  <tr>
-    <td>07:00</td>
-  </tr>
-  <tr>
-    <td>08:00</td>
-  </tr>
-  <tr>
-    <td>09:00</td>
-  </tr>
-  <tr>
-    <td>10:00</td>
-  </tr>
-  <tr>
-    <td>11:00</td>
-  </tr>
-  <tr>
-    <td>12:00</td>
-  </tr>
-  <tr>
-    <td>13:00</td>
-  </tr>
-  <tr>
-    <td>14:00</td>
-  </tr>
-  <tr>
-    <td>15:00</td>
-  </tr>
-  <tr>
-    <td class="taken">16:00</td>
-  </tr>
-  <tr>
-    <td>17:00</td>
-  </tr>
-  <tr>
-    <td class="taken">18:00</td>
-  </tr>
-  <tr>
-    <td>19:00</td>
-  </tr>
-  <tr>
-    <td class="taken">20:00</td>
-  </tr>
-  <tr>
-    <td>21:00</td>
-  </tr>
-  <tr>
-    <td class="taken">22:00</td>
-  </tr>
-  <tr>
-    <td class="taken">23:00</td>
-  </tr>
-</table>
-</div>
+<input type="submit" name="checkout" />
+</form>
 
-<div class="cell">
-<table width="100" class="hourly">
-  <tr>
-    <th>Oct 23</th>
-  </tr>
-  <tr>
-    <td>00:00</td>
-  </tr>
-  <tr>
-    <td>01:00</td>
-  </tr>
-  <tr>
-    <td>02:00</td>
-  </tr>
-  <tr>
-    <td>03:00</td>
-  </tr>
-  <tr>
-    <td>04:00</td>
-  </tr>
-  <tr>
-    <td>05:00</td>
-  </tr>
-  <tr>
-    <td>06:00</td>
-  </tr>
-  <tr>
-    <td class="taken">07:00</td>
-  </tr>
-  <tr>
-    <td>08:00</td>
-  </tr>
-  <tr>
-    <td>09:00</td>
-  </tr>
-  <tr>
-    <td class="taken">10:00</td>
-  </tr>
-  <tr>
-    <td>11:00</td>
-  </tr>
-  <tr>
-    <td>12:00</td>
-  </tr>
-  <tr>
-    <td class="taken">13:00</td>
-  </tr>
-  <tr>
-    <td class="taken">14:00</td>
-  </tr>
-  <tr>
-    <td>15:00</td>
-  </tr>
-  <tr>
-    <td>16:00</td>
-  </tr>
-  <tr>
-    <td>17:00</td>
-  </tr>
-  <tr>
-    <td>18:00</td>
-  </tr>
-  <tr>
-    <td>19:00</td>
-  </tr>
-  <tr>
-    <td>20:00</td>
-  </tr>
-  <tr>
-    <td>21:00</td>
-  </tr>
-  <tr>
-    <td>22:00</td>
-  </tr>
-  <tr>
-    <td>23:00</td>
-  </tr>
-</table>
-</div>
-
-<div class="cell">
-<table width="100" class="hourly">
-  <tr>
-    <th>Oct 24</th>
-  </tr>
-  <tr>
-    <td>00:00</td>
-  </tr>
-  <tr>
-    <td>01:00</td>
-  </tr>
-  <tr>
-    <td>02:00</td>
-  </tr>
-  <tr>
-    <td>03:00</td>
-  </tr>
-  <tr>
-    <td>04:00</td>
-  </tr>
-  <tr>
-    <td>05:00</td>
-  </tr>
-  <tr>
-    <td class="taken">06:00</td>
-  </tr>
-  <tr>
-    <td class="taken">07:00</td>
-  </tr>
-  <tr>
-    <td>08:00</td>
-  </tr>
-  <tr>
-    <td>09:00</td>
-  </tr>
-  <tr>
-    <td class="taken">10:00</td>
-  </tr>
-  <tr>
-    <td class="taken">11:00</td>
-  </tr>
-  <tr>
-    <td class="taken">12:00</td>
-  </tr>
-  <tr>
-    <td class="taken">13:00</td>
-  </tr>
-  <tr>
-    <td class="taken">14:00</td>
-  </tr>
-  <tr>
-    <td>15:00</td>
-  </tr>
-  <tr>
-    <td>16:00</td>
-  </tr>
-  <tr>
-    <td>17:00</td>
-  </tr>
-  <tr>
-    <td>18:00</td>
-  </tr>
-  <tr>
-    <td class="taken">19:00</td>
-  </tr>
-  <tr>
-    <td>20:00</td>
-  </tr>
-  <tr>
-    <td class="taken">21:00</td>
-  </tr>
-  <tr>
-    <td>22:00</td>
-  </tr>
-  <tr>
-    <td class="taken">23:00</td>
-  </tr>
-</table>
-</div>
-
-<div class="cell">
-<table width="100" class="hourly">
-  <tr>
-    <th>Oct 25</th>
-  </tr>
-  <tr>
-    <td class="taken">00:00</td>
-  </tr>
-  <tr>
-    <td class="taken">01:00</td>
-  </tr>
-  <tr>
-    <td>02:00</td>
-  </tr>
-  <tr>
-    <td>03:00</td>
-  </tr>
-  <tr>
-    <td>04:00</td>
-  </tr>
-  <tr>
-    <td>05:00</td>
-  </tr>
-  <tr>
-    <td>06:00</td>
-  </tr>
-  <tr>
-    <td>07:00</td>
-  </tr>
-  <tr>
-    <td class="taken">08:00</td>
-  </tr>
-  <tr>
-    <td class="taken">09:00</td>
-  </tr>
-  <tr>
-    <td class="taken">10:00</td>
-  </tr>
-  <tr>
-    <td>11:00</td>
-  </tr>
-  <tr>
-    <td class="taken">12:00</td>
-  </tr>
-  <tr>
-    <td class="taken">13:00</td>
-  </tr>
-  <tr>
-    <td>14:00</td>
-  </tr>
-  <tr>
-    <td>15:00</td>
-  </tr>
-  <tr>
-    <td>16:00</td>
-  </tr>
-  <tr>
-    <td>17:00</td>
-  </tr>
-  <tr>
-    <td>18:00</td>
-  </tr>
-  <tr>
-    <td>19:00</td>
-  </tr>
-  <tr>
-    <td>20:00</td>
-  </tr>
-  <tr>
-    <td>21:00</td>
-  </tr>
-  <tr>
-    <td>22:00</td>
-  </tr>
-  <tr>
-    <td>23:00</td>
-  </tr>
-</table>
-</div>
-
-<div class="cell">
-<table width="100" class="hourly">
-  <tr>
-    <th>Oct 26</th>
-  </tr>
-  <tr>
-    <td>00:00</td>
-  </tr>
-  <tr>
-    <td>01:00</td>
-  </tr>
-  <tr>
-    <td>02:00</td>
-  </tr>
-  <tr>
-    <td>03:00</td>
-  </tr>
-  <tr>
-    <td>04:00</td>
-  </tr>
-  <tr>
-    <td class="taken">05:00</td>
-  </tr>
-  <tr>
-    <td class="taken">06:00</td>
-  </tr>
-  <tr>
-    <td>07:00</td>
-  </tr>
-  <tr>
-    <td>08:00</td>
-  </tr>
-  <tr>
-    <td>09:00</td>
-  </tr>
-  <tr>
-    <td class="taken">10:00</td>
-  </tr>
-  <tr>
-    <td>11:00</td>
-  </tr>
-  <tr>
-    <td>12:00</td>
-  </tr>
-  <tr>
-    <td class="taken">13:00</td>
-  </tr>
-  <tr>
-    <td>14:00</td>
-  </tr>
-  <tr>
-    <td class="taken">15:00</td>
-  </tr>
-  <tr>
-    <td class="taken">16:00</td>
-  </tr>
-  <tr>
-    <td class="taken">17:00</td>
-  </tr>
-  <tr>
-    <td>18:00</td>
-  </tr>
-  <tr>
-    <td>19:00</td>
-  </tr>
-  <tr>
-    <td>20:00</td>
-  </tr>
-  <tr>
-    <td>21:00</td>
-  </tr>
-  <tr>
-    <td class="taken">22:00</td>
-  </tr>
-  <tr>
-    <td class="taken">23:00</td>
-  </tr>
-</table>
-</div>
-
-<img src="img/slider.gif" alt="slider" />
 <!-- close row div -->
 </div>
-
-<img src="img/taken.gif" alt="slider" /> - boxes are taken, please make another selection
-
 </div> 
-    <div class="story">    </div> 
+<div style="clear: both;"></div>
+
+
+
+    <div class="story"> <img src="img/taken.gif" alt="slider" /> - boxes are taken, please make another selection   </div> 
 </div> 
    <div id="siteInfo">     
      <div align="center" class="style8">

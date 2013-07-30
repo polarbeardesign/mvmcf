@@ -1,204 +1,89 @@
 <?php
 
-// db connection
-$db_name = "mv_gorge";
-$connection = @mysql_connect("127.0.0.1","jri","tensai14") or die("Couldn't Connect.");
-$db = @mysql_select_db($db_name, $connection) or die("Couldn't select database.");
-
-
+include('inc/db_conn.php');
 
 date_default_timezone_set("America/Chicago");
 
-  function GetDays($sStartDate, $sEndDate){  
-      // Firstly, format the provided dates.  
-      // This function works best with YYYY-MM-DD  
-      // but other date formats will work thanks  
-      // to strtotime().  
-      $sStartDate = gmdate("Y-m-d", strtotime($sStartDate));  
-      $sEndDate = gmdate("Y-m-d", strtotime($sEndDate));  
+//==========================
+// For days
+//==========================
 
-      // Start the variable off with the start date  
-     $aDays[] = $sStartDate;  
+$sql_hours = "SELECT ";
+$sql_hours .= "DATE_FORMAT(start_time, '%b %D') AS start_date ";
+$sql_hours .= "FROM time_slots ";
+$sql_hours .= "GROUP BY start_date ";
+$sql_hours .= "ORDER BY start_time";
 
-     // Set a 'temp' variable, sCurrentDate, with  
-     // the start date - before beginning the loop  
-     $sCurrentDate = $sStartDate;  
+$total_hours = @mysql_query($sql_hours, $connection) or die("Error #". mysql_errno() . ": " . mysql_error());
+$total_found_hours = @mysql_num_rows($total_hours);
 
-     // While the current date is less than the end date  
-     while($sCurrentDate < $sEndDate){  
-       // Add a day to the current date  
-       $sCurrentDate = gmdate("Y-m-d", strtotime("+1 day", strtotime($sCurrentDate)));  
+$last_start_date = '';
 
-       // Add this new day to the aDays array  
-       $aDays[] = $sCurrentDate;  
-     }  
+do {
 
-     // Once the loop has finished, return the  
-     // array of days.  
-     return $aDays;  
-   } 
-   
-   
-//$days = array('2013-10-01' => "Oct 1st",'2013-10-02' => "Oct 2nd");
+  if ($row['start_date'] != '')
+  {
+  if ($row['start_date'] != $last_start_date) 
+   {
+    $display_block_date .="<td><strong>" . $row['start_date'] . "</strong></td>";
+    }
+  }
+}
+while ($row = mysql_fetch_array($total_hours));
 
-$days = GetDays('2013-10-01', '2014-01-31');
+//==========================
+// For time slots
+//==========================
 
-foreach ($days as $key =>$value)
-{
-$today = new DateTime($value);
-$today = date_format($today, 'M jS');
-$display .="<div class=\"cell\">
-<table width=\"100\" class=\"hourly\">
-  <tr>
-    <th> $today </th>
+$sql_time_slots = "SELECT ";
+$sql_time_slots .= "id, ";
+$sql_time_slots .= "DATE_FORMAT(start_time, '%b %d') AS start_date, ";
+$sql_time_slots .= "DATE_FORMAT(start_time, '%H:%i') AS start_time_f, ";
+$sql_time_slots .= "DATE_FORMAT(end_time, '%H:%i') AS end_time_f ";
+$sql_time_slots .= "FROM time_slots ";
+$sql_time_slots .= "ORDER BY start_time_f, start_time";
+
+$total_time_slots = @mysql_query($sql_time_slots, $connection) or die("Error #". mysql_errno() . ": " . mysql_error());
+$total_found_time_slots = @mysql_num_rows($total_time_slots);
+$row_color=($row_count%2)?$row_1:$row_2;
+
+$last_hour = '';
+$last_date = '';
+
+do {
+
+  if ($row['start_time_f'] != '')
+  {
+  if ($row['start_time_f'] != $last_hour) 
+   {
+$display_block .="<tr>
+  <td><input type=\"checkbox\" name=\"time_slot_" . $row['id'] . "\" value=\"" . $row['id'] . "\">" . $row['start_time_f'] . "</td>";
+  $last_hour = $row['start_time_f'];
+    }
+    else 
+    {
+$display_block .="
+  <td><input type=\"checkbox\" name=\"time_slot_" . $row['id'] . "\" value=\"" . $row['id'] . "\">" . $row['start_time_f'] . "</td>";
+  $last_hour = $row['start_time_f'];
+    }
+  if ($row['start_date'] == "Mar 31")
+  {
+  $display_block .="
   </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 00:00\">00:00</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 00:30\">00:30</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 01:00\">01:00</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 01:30\">01:30</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 02:00\">02:00</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 02:30\">02:30</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 03:00\">03:00</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 03:30\">03:30</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 04:00\">04:00</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 04:30\">04:30</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 05:00\">05:00</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 05:30\">05:30</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 06:00\">06:00</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 06:30\">06:30</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 07:00\">07:00</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 07:30\">07:30</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 08:00\">08:00</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 08:30\">08:30</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 09:00\">09:00</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 09:30\">09:30</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 10:00\">10:00</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 10:30\">10:30</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 11:00\">11:00</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 11:30\">11:30</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 12:00\">12:00</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 12:30\">12:30</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 13:00\">13:00</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 13:30\">13:30</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 14:00\">14:00</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 14:30\">14:30</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 15:00\">15:00</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 15:30\">15:30</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 16:00\">16:00</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 16:30\">16:30</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 17:00\">17:00</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 17:30\">17:30</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 18:00\">18:00</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 18:30\">18:30</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 19:00\">19:00</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 19:30\">19:30</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 20:00\">20:00</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 20:30\">20:30</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 21:00\">21:00</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 21:30\">21:30</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 22:00\">22:00</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 22:30\">22:30</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 23:00\">23:00</td>
-  </tr>
-  <tr>
-    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 23:30\">23:30</td>
-  </tr>
-</table>
-</div>";
-};
+  ";
+  }
+}
+}
+while ($row = mysql_fetch_array($total_time_slots));
+
+
+
+
+
+//  <tr>
+//    <td><input type=\"checkbox\" name=\"time_slot\" value=\"$value 00:00\">00:00</td>
+//  </tr>
+
 
 ?>
 
@@ -214,6 +99,7 @@ $display .="<div class=\"cell\">
 Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
 <META name="Donita_Powell_Ennis_Montana_406-682-4477"/>
 <link rel="stylesheet" href="emx_nav_left.css" type="text/css">
+<link rel="stylesheet" href="inc/gorge_styles.css" type="text/css">
 <script type="text/javascript">
 <!--
 var time = 3000;
@@ -336,17 +222,23 @@ MM_reloadPage(true);
 <div class="row">
 <div class="scrolls">
 <div class="tables">
- <?php echo $display ?>
+  <div class="cell">
+<table width="100" class="hourly" cellspacing="0">
+<tr >
+  <?php echo $display_block_date ?>
+</tr>
+ <?php echo $display_block ?>
+</table>
 </div>
 </div>
-
+</div>
+</div> 
+<div style="clear: both;"></div>
 <input type="submit" name="checkout" />
 </form>
 
 <!-- close row div -->
-</div>
-</div> 
-<div style="clear: both;"></div>
+
 
 
 

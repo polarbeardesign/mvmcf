@@ -53,10 +53,10 @@ Ennis, MT 59729</p>
 <p>Print and Mail Forms provided below for your convenience.</p>
 <p>You will need Acrobat Reader to view these forms.</p>
 
-<p><a href="">Printable "Partner" Donation Form</a> - print and mail this form with your gift. We will send you your partner I'm A Partner Donation Formbumper sticker with your receipt. We hope you will display the bumper sticker prominently and encourage community support for the Madison Valley Medical Center.</p>
+<p><a href="forms/partner_form.pdf">Printable "Partner" Donation Form</a> - print and mail this form with your gift. We will send you your partner I'm A Partner Donation Formbumper sticker with your receipt. We hope you will display the bumper sticker prominently and encourage community support for the Madison Valley Medical Center.</p>
 
 
-<p><a href="">Printable Credit Card Donation Form</a> - print and mail this form with your cc information (or donate online line above). If you prefer to make your credit card donation by telephone, please call the MVMC Foundation Office at 406-682-6641. We will need your name as it appears on the card, the credit card billing address, credit card expiration date and your telephone number.</p>
+<p><a href="forms/partner_form.pdf">Printable Credit Card Donation Form</a> - print and mail this form with your cc information (or donate online line above). If you prefer to make your credit card donation by telephone, please call the MVMC Foundation Office at 406-682-6641. We will need your name as it appears on the card, the credit card billing address, credit card expiration date and your telephone number.</p>
 </section>
 
 <section id="content-right">

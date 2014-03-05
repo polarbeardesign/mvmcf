@@ -66,7 +66,7 @@ Ennis, MT 59729</p>
 
 <p>Madison Valley Medical Center Foundation (EIN 81- 0453395) is organized as a Montana charitable public benefit corporation as described in Internal Revenue Code section 501(c)(3). Donors are entitled to a charitable income tax deduction, the tax code requires us to state that no goods or services were exchanged for the contribution.</p> 
 
-<p><em>Privacy Policy - all credit card information, personal information and gift amounts received by the MVMC Foundation are kept strictly confidential.</em></p>
+<p>Privacy Policy - <a href="privacypolicy.php">click here</a> to view our complete privacy policy.</p>
 
 </section>
 

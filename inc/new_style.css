@@ -1,0 +1,355 @@
+ /* =Reset default browser CSS. Based on work by Eric Meyer
+-------------------------------------------------------------- */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  background: #fff;
+  line-height: 1.6em;
+  color: #333;
+  font-family: "Helvetica", Arial, sans-serif;
+  }
+
+ul, ol {
+  list-style-position: outside;
+  margin: 0 2em 0 1em;
+  }
+
+table {
+  border-collapse: collapse;
+  }
+
+td {
+  padding: 0.5em;
+  border: 1px solid #ddd;
+  }
+
+strong {
+  font-weight: bold;
+  }
+
+em {
+  font-style: italic;
+  }
+
+#masthead {
+  float: left;
+  background: #000;
+  margin: 0 0 0 0;
+  width: 100%;
+  height: 100%;
+  }
+
+#masthead h1 {
+  color: #fff;
+  font-size: 2em;
+  padding: 1em 0 0 10%;
+  }
+
+#masthead .foundation {
+  float: left;
+  margin: -15em 0 0 14%;
+  width: 80%;
+  }
+
+#masthead .tagline {
+  float: left;
+  margin: -8em 0 0 18%;
+  width: 340px;
+  }
+
+#header_img {
+  float: right;
+  margin: 0.5% 10% 2% 0;
+  } 
+
+#navigation {
+  float: left;
+  width: 100%;
+  margin: 0 0 0 0;
+  text-align: center;  /*centers the text in the box */
+  z-index: +3; /*makes the subnav appear over content*/
+  background: #889bbc;
+  }
+
+#navigation ul {
+  padding-left: 0%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  }
+
+#navigation a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.25em;
+  width: 100%;  /*sets the width of the block, set to background image width to center text*/
+  height: 100%;
+  }
+
+#navigation li { /* all list items */
+  float: left;
+  margin: 0 0 0 0; /*margin between top nav boxes - my code*/
+  padding: 0.5em 1em;
+  border-top: 1px solid #889bbc;
+  border-bottom: 1px solid #889bbc;
+  border-right: 1px solid #b1c8f6;
+ }
+
+#navigation a:hover, #navigation a.sfhover {/* hover styles - my code */
+  color: #000;
+  }
+
+#navigation li:hover, #navigation li.sfhover {/* hover styles - my code */
+  background: #889;
+  color: #000;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+  }
+
+/* SECOND LEVEL CODE */
+
+#navigation li ul { /* second-level lists */
+  position: absolute;
+  top: 340px; /*positions the drop down box vertically relative to its container, so padding + button height to get to align at bottom - my code*/
+  padding-top: 10px; /*moves nav boxes down but preserves the block element so the hover is not lost*/
+  margin-left: 0px; /*offset margin between top nav boxes and second level boxes - my code*/
+  width: 138px; /* sets second/third level box width - my code */
+  left: -999em; /* using left instead of display to hide menus because display: none isn't read by screen readers */
+  text-align: left;  /*left justifies the text in the boxes - my code  */
+  background: #889bbc; 
+  border-left: 1px solid #666;
+  border-right: 1px solid #666;
+  border-bottom: 1px solid #666;
+  box-shadow: 5px 5px 2px #525d72;
+  -moz-box-shadow: 15px 15px 7px #525d72;
+  -webkit-box-shadow: 2px 5px 8px 5px #525d72;
+}
+
+#navigation li ul li { /* format second level boxes */
+  float: left;
+  font-size: 0.75em;
+  text-align: left;  /*centers the text in the box */
+  margin: 0 0 0 0;
+  padding: 8px 0 14px 4px;
+  width: 97%;
+  border-top: 1px solid #889bbc;
+  border-bottom: 1px solid #889bbc;
+  border-right: none;
+  }
+
+
+
+#navigation li:hover ul, #navigation li li:hover ul, #navigation li.sfhover ul, #navigation li li.sfhover ul { /* lists nested under hovered list items */
+	left: auto;
+}
+
+#navigation li ul li:hover, #navigation li ul li.sfhover {/* hover styles - my code */
+
+border-top: 1px solid #666;
+border-bottom: 1px solid #666;
+}
+
+
+
+
+
+#main-content {
+  float: left;
+  width: 58%;
+  min-width: 750px;
+  margin: 0 2% 0 10%;
+  }
+
+#main-content h1, h2, h3 {
+  color: #5f6c85;
+  margin: 1em 0;
+  }
+
+#main-content h1 {
+  font-size: 1.6em;
+  line-height: 1.6em;
+  }
+
+#main-content h2 {
+  font-size: 1.4em;
+  line-height: 1.4em;
+  }
+
+#main-content h3 {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  }
+#main-content p {
+  line-height: 1.5em;
+  margin: 1em 0;
+  }
+
+#main-content a:link, a:visited {
+  color: #005FA9;
+  text-decoration: none;
+  }
+
+
+#main-content ul, ol {
+  list-style-position: outside;
+  margin: 1em 2em 1em 2em;
+  }
+
+#main-content em {
+  line-height: 1.5em;
+  margin: 1em 0;
+  }
+
+#content-right {
+  float: left;
+  font-size: 0.85em;
+  width: 18%;
+  min-width: 200px;
+  margin: 0 0 0 2em;
+  }
+
+#content-right h1{
+  color: #5f6c85;
+  font-size: 1.5em;
+  margin: 1em 0;
+  }
+
+#content-right p{
+  line-height: 1.5em;
+  margin: 1em 0;
+  }
+
+#footer {
+  float: left;
+  width: 100%;
+  font-size: 1.25em;
+  color: #fff;
+  line-height: 1.6em;
+  margin: 2em 0 0 0;
+  padding: 2em 0;
+  clear: both;
+  background: #889bbc;
+  }
+
+#footer a {
+  color: #fff;
+  }
+
+.indent {
+  padding: 0 2em;
+  }
+
+.row {
+  float: left;
+  width: 100%;
+  }
+
+.cell {
+  float: left;
+  }
+
+.head-shot {
+  width: 70%;
+  margin: 0.5em 0;
+  border: 1px solid #666;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  box-shadow: 2px 2px 7px 2px #333;
+  -webkit-box-shadow: 2px 2px 7px 2px #333;
+  -moz-box-shadow: 2px 2px 7px 2px #333;
+  }
+
+.pic {
+  margin: 0.5em 0;
+  border: 1px solid #666;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  box-shadow: 2px 2px 7px 2px #333;
+  -webkit-box-shadow: 2px 2px 7px 2px #333;
+  -moz-box-shadow: 2px 2px 7px 2px #333;
+  }
+
+.picture-title {
+  color: #666;
+  font-style: italic;
+  font-size: 0.75em;
+  }
+
+.art {
+  display: block;
+  margin: 0 auto;
+  box-shadow: 2px 2px 7px 2px #ddd;
+  -webkit-box-shadow: 2px 2px 7px 2px #ddd;
+  -moz-box-shadow: 2px 2px 7px 2px #ddd;
+  }
+
+.art-title {
+  color: #666;
+  font-style: italic;
+  text-align: center;
+  }
+
+.news-item {
+  border: 1px solid #eee;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  box-shadow: 1px 1px 2px 0px #ddd;
+  -webkit-box-shadow: 1px 1px 2px 0px #ddd;
+  -moz-box-shadow: 1px 1px 2px 0px #ddd;
+  }
+/* h-shadow v-shadow blur spread color
+box-shadow: 0px 0px 15px 5px rgba(202, 219, 232, .75);*/
+
+.inner-nav {
+  font-size: 0.75em;
+  text-decoration: none;
+  padding: 0.5em;
+  margin: 0 0 0 0;
+  background: #889bbc;
+  border: 1px solid #eee;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  }
+
+.inner-nav a:link, a:visited {
+  /*color: #fff;*/
+  }
+
+

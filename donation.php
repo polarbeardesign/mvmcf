@@ -32,7 +32,7 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
 </form>
 </div>
 
-<p>Our donation system's security measures keep your personal information safe. MADISON VALLEY MEDICAL CENTER FOUNDATION INC works with PayPal to securely process your online credit card donation.  Donors do not need a PayPal account to process their donation, as PayPal Accepts All Major Credit Cards. This transaction will appear on your credit card statement as. "MADISONVALL" .  Our Privacy Policy - click here to view our complete privacy policy.</p>
+<p>Our donation system's security measures keep your personal information safe. MADISON VALLEY MEDICAL CENTER FOUNDATION INC works with PayPal to securely process your online credit card donation.  Donors do not need a PayPal account to process their donation, as PayPal Accepts All Major Credit Cards. This transaction will appear on your credit card statement as. "MADISONVALL" .  Our Privacy Policy - <a href="privacypolicy.php">click here to view our complete privacy policy</a>.</p>
 
 <p>Contributions can be made online above or mailed directly to:</p>
 

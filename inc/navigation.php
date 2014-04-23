@@ -21,7 +21,7 @@
       <li><a href="donate_donor_recognition.php">Donor Recognition</a></li>
     </ul></li>
   <li><a href="shopandsupport.php">Shop &amp; Support</a></li>
-  <li><a href="news_events.php">News &amp; Events </a></li>
+  <li><a href="news_events.php">Newsletters &amp; Events </a></li>
   <li><a href="contactus.php">Contact Us </a></li>
 </ul>
 </div>

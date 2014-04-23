@@ -33,7 +33,7 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
  
 <p style="margin-top: -1em;"><em> - brought to you by the MVMC Auxiliary</em><br />
 
-<p>Saturday, August 16, 2014 - 10 A.M. - 5 P.M.</p>
+<p>Saturday, August 23, 2014 - 10 A.M. - 5 P.M.</p>
 
 <p>Advanced tickets available for $25 at the Medical Center reception desk, the Ennis Chamber of Commerce, or by calling Dottie Fossel at (406) 682-5073.</p>
 
@@ -53,8 +53,8 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
 <div class="cell" style="border-left: 1px solid #ddd; padding: 0 2em; width: 60%;">
 <p>Past</p>
 <img src="photos/past_newsletters2.jpg" style="float: right; width: 40%;" alt="Past Newsletters" />
-<p><a href="newsletters/2012_Fall_newsletter_for_web.pdf">2012 Fall Newsletter</a><br />
-<a href="newsletters/2012_spring_newsletter_for_web.pdf">2012 Spring Newsletter</a><br />
+<p><a href="newsletters/2012_Fall_newsletter_for_web.pdf">2012 Fall Newsletter - The Pulse</a><br />
+<a href="newsletters/2012_spring_newsletter_for_web.pdf">2012 Spring Newsletter - The Pulse</a><br />
 <a href="newsletters/2011_fall_newsletter_final.pdf">2011 Fall Newsletter - The Pulse</a><br />
 <a href="newsletters/2011_spring_newsletter_final_8_5x11.pdf">2011 Spring Newsletter - The Pulse</a><br />
 <a href="newsletters/10_fall_newsletter.pdf">2010 Fall Newsletter - Health News</a><br />

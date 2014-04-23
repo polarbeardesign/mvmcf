@@ -30,6 +30,19 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
 <p><em>You will need acrobat reader to view these documents.</em></p>
 
 <div class="row" style="border-top: 1px solid #ddd;">
+<h2>2013</h2>
+<p>Reports for the 2013 fiscal year (October 1, 2012 - September 30, 2013).
+	<div class="cell" style="width: 50%;text-align: center;">
+	  <a href="newsletters/MVMCF2013_Annual_Report_web.pdf">2013 Annual Report</a><br />
+	  <a href="newsletters/MVMCF2013_Annual_Report_web.pdf"><img src="newsletters/2013_annual_report_sm.png" alt="2013 Annual Report" width="311" height="240" border="0"></a>
+	</div>
+	<div class="cell" style="width: 50%;text-align: center;">
+	  <a href="newsletters/2012_2013_FY_990.pdf">2013 Form 990</a><br />
+      <a href="newsletters/2012_2013_FY_990.pdf"><img src="photos/form_990_curled.jpg" alt="2013 Form 990" width="228" height="233" border="0"></a>
+	</div>
+</div>
+
+<div class="row" style="border-top: 1px solid #ddd;">
 <h2>2012</h2>
 <p>Reports for the 2012 fiscal year (October 1, 2011 - September 30, 2012).
 	<div class="cell" style="width: 50%;text-align: center;">

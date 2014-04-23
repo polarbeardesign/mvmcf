@@ -28,7 +28,7 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
 
 <p>You can view these beautiful framed prints on the walls at the Medical Center. For more information call the Foundation at (406) 682-6641 or 6630. The sale of these prints will go directly to benefit the Foundation's mission to support the health and well-being of the people in Madison County and adjacent communities in southwest Montana.</p>
 
-<p>In 2008 the LeSuer Family generously donated fourteen prints, Right Angles Framing in Ennis generously donated the framing. Six of these fourteen prints sold in 2009. A giclee and an unframed print were donated by another generous donor in 2010.</p>
+<p>In 2008 the LeSuer Family generously donated fourteen prints, Right Angles Framing in Ennis generously donated the framing. Eleven of these fourteen prints sold in 2009. A giclee and an unframed print were donated by another generous donor in 2010.</p>
 
 <p>Larry Zabel was one of the nation's premier Western artists. He specialized in paintings of today's Montana ranch life, Native Americans of the Northern Rockies and historical events of the Old West.</p>
 

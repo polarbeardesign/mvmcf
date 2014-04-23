@@ -27,7 +27,7 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
  
 <p>(October 1, 2012 - September 30, 2013)</p>
  
-<p>Recognizing that residents and visitors to the Madison Valley are a worthy investment, the community gave more than $631,000 to support the life-saving work provided each day at the Madison Valley Medical Center. Consistent support helps sustain the Madison Valley Medical Center's mission to be the most effective provider of healthcare services in our region.</p>
+<p>Recognizing that residents and visitors to the Madison Valley are a worthy investment, the community gave more than $336,000 to support the life-saving work provided each day at the Madison Valley Medical Center. Consistent support helps sustain the Madison Valley Medical Center's mission to be the most effective provider of healthcare services in our region.</p>
 
 <p>Money raised for the Medical Center enabled us:</p>
 <ul>

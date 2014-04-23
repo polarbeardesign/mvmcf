@@ -119,8 +119,6 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
     <p><em>1/20/11</em></p>
   </div>
 </div>
-<div style="clear: both;"></div>
-<h2>2010 Press Releases</h2>
 
 <div class="row news-item">
   <div class="cell" style="width:20%; padding: 1em;">
@@ -230,8 +228,6 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
     <p><em>1/17/10</em></p>
   </div>
 </div>
-
-<h2>2009 Press Releases</h2>
 
 <div class="row news-item">
   <div class="cell" style="width:20%; padding: 1em;">

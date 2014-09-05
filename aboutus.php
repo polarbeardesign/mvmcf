@@ -58,7 +58,6 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
      <li>Kim Montag, <em>Treasurer</em></li>
      <li>Teresa Dockery, <em>Secretary</em></li>
      <li>Heidi Gildred</li>
-     <li>Gerry Gerron</li>
      <li>Amy Kelley</li>
      <li>Dottie Fossel, <em>MVMC Representative</em></li>
      <li>Manny Hoag, <em>MVMC Representative</em> </li>

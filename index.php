@@ -29,7 +29,7 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
 
 <h1>The Medical Center has Five Board Certified Physicians and Staff</h1>
 
-<p>The Medical Center has five <a href="http://www.mvmedcenter.org/team/physicians-staff/">board certified Physicians and Staff.</a> Dr. R.D. Marks, M.D. is the Chief of medical staff. The other providers are; Dr. Curtis Blake M.D., Dr. Patrick Holland M.D., OB/GYN, and PA-C's Marty Hensel and Morgan Stearns. You can support the Medical Center by making an appointment to have your medical needs met locally.</p>
+<p>The Medical Center has six <a href="http://www.mvmedcenter.org/team/physicians-staff/">board certified Physicians and Staff.</a> Dr. R.D. Marks, M.D. is the Chief of medical staff. The other providers are; Dr. Curtis Blake M.D., Dr. Patrick Holland M.D., OB/GYN, Dr. Maura Davenport M.D., and PA-C's Marty Hensel and Pat Watson. You can support the Medical Center by making an appointment to have your medical needs met locally.</p>
 
 <div class="row" style="min-width: 750px;">
   <div class="cell" style="text-align: center;">
@@ -45,13 +45,14 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
     <div class="picture-title">Dr. Patrick Holland<br />M.D.OB/GYN</div>
   </div>
   <div class="cell" style="text-align: center;">
+    <img src="photos/hs_davenport.jpg" class="head-shot"  />
+    <div class="picture-title">Maura Davenport<br />M.D.</div>
+  </div>
+  <div class="cell" style="text-align: center;">
     <img src="photos/hs_hensel.jpg" class="head-shot"  />
     <div class="picture-title">Marty Hensel<br />PA-C</div>
   </div>
-  <div class="cell" style="text-align: center;">
-    <img src="photos/hs_stearns.jpg" class="head-shot"  />
-    <div class="picture-title">Morgan Stearns<br />PA-C</div>
-  </div>
+
 </div>
 
 
@@ -64,7 +65,9 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
 
 <h1>What's New?</h1>
 
-<a href="newsletters/2013_summer_newsletter_for_web.pdf"><img border="0" alt="2013 Summer Newsletter" src="newsletters/2013_summer_newsletter_sm.jpg" width="175" longdesc="newsletters/2013_summer_newsletter_for_web.pdf" height="210" /><p>2013 Summer Newsletter</p></a>
+<a href="newsletters/2014_MVMCF_Summer_News_letter_final.pdf" target="_blank"><img border="0" alt="2013 Summer Newsletter" src="img/2014_newsletter_thumb.png" width="169" height="217" style="display: block; margin: 0 auto;" longdesc="newsletters/2014_summer_newsletter_for_web.pdf" /></a>
+
+<p style="text-align: center;"><a href="newsletters/2014_MVMCF_Summer_News_letter_final.pdf" target="_blank">2014 Summer Newsletter</a></p>
 
 <?php include("sb_mvmc.php"); ?>
 

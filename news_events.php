@@ -25,19 +25,16 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
 <h2>2014 Schedule of Events</h2>
 
 <div class="row">
-<div class="cell" style="width: 200px;">
-<img src="photos/2012_home_tour_pic_sm.jpg" alt="2014 Home Tour" class="pic" />
+<div class="cell" style="width: 350px; padding-top: 50px;">
+<a href="http://www.icejam.org/" target="_blank"><img src="img/icejam_2014.jpg" width="311" height="200" alt="IceJam 2014" class="pic" /></a>
+<p style="text-align: center;"><a href="http://www.icejam.org/">Visit the IceJam website </a></p>
 </div>
 <div class="cell" style="width: 400px;">
-<p><strong>FIFTH ANNUAL HOME TOUR</strong></p>
- 
-<p style="margin-top: -1em;"><em> - brought to you by the MVMC Auxiliary</em><br />
+<h2>IceJam 2014!</h2>
 
-<p>Saturday, August 23, 2014 - 10 A.M. - 5 P.M.</p>
+<p>We are running our 2nd annual on-line fundraising raffle called "Ice Jam" where time slots are sold to predict the date and time within one hour, that the Madison River will ice gorge - for the first time - at the Ennis Bridge, located just south of downtown Ennis, MT.</p>
 
-<p>Advanced tickets available for $25 at the Medical Center reception desk, the Ennis Chamber of Commerce, or by calling Dottie Fossel at (406) 682-5073.</p>
-
-<p>No need to peek in the window, we'll let you in the front door!</p> 
+<p>The one individual who purchases the correct date and time within the hour that the Madison River ice gorges will win-half of the proceeds raised at Ice Jam! More details at the <a href="http://www.icejam.org/">IceJam website.</a></p> 
 </div></div>
 
 <hr />
@@ -45,15 +42,16 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
 <div class="row">
 <div class="cell" style="width: 30%;">
 <p>Current</p>
-<a href="newsletters/2013_summer_newsletter_for_web.pdf"><img hspace="1" alt="The Madison Valley Medical Center" vspace="1" src="newsletters/2013_summer_newsletter_sm.jpg" width="175" height="210" alt="2013 Summer Newsletter" /></a>
+<a href="newsletters/2014_MVMCF_Summer_News_letter_final.pdf"><img hspace="1" alt="The Madison Valley Medical Center" vspace="1" src="img/2014_newsletter_thumb.png" width="169" height="217" alt="2014 Summer Newsletter" /></a>
 
-<p><a href="newsletters/2013_summer_newsletter_for_web.pdf">2013 Summer Newsletter</a></p>
+<p><a href="newsletters/2014_MVMCF_Summer_News_letter_final.pdf">2014 Summer Newsletter</a></p>
 
 </div>
 <div class="cell" style="border-left: 1px solid #ddd; padding: 0 2em; width: 60%;">
 <p>Past</p>
 <img src="photos/past_newsletters2.jpg" style="float: right; width: 40%;" alt="Past Newsletters" />
-<p><a href="newsletters/2012_Fall_newsletter_for_web.pdf">2012 Fall Newsletter - The Pulse</a><br />
+<p><a href="newsletters/2013_summer_newsletter_for_web.pdf">2013 Summer Newsletter</a><br />
+<a href="newsletters/2012_Fall_newsletter_for_web.pdf">2012 Fall Newsletter - The Pulse</a><br />
 <a href="newsletters/2012_spring_newsletter_for_web.pdf">2012 Spring Newsletter - The Pulse</a><br />
 <a href="newsletters/2011_fall_newsletter_final.pdf">2011 Fall Newsletter - The Pulse</a><br />
 <a href="newsletters/2011_spring_newsletter_final_8_5x11.pdf">2011 Spring Newsletter - The Pulse</a><br />

@@ -27,13 +27,13 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
 
 <p>The Foundation is very fortunate to have the support of community members, especially the members of the Medical Center Auxiliary Association. These dedicated men and women work tirelessly to help raise funds for the Medical Center as well as serve as the Medical Center&rsquo;s &ldquo;ambassadors&rdquo; out in the community.</p>
 
-<h1>The Medical Center has Five Board Certified Physicians and Staff</h1>
+<h1>The Medical Center has Six Board Certified Physicians and Staff</h1>
 
 <p>The Medical Center has six <a href="http://www.mvmedcenter.org/team/physicians-staff/">board certified Physicians and Staff.</a> Dr. R.D. Marks, M.D. is the Chief of medical staff. The other providers are; Dr. Curtis Blake M.D., Dr. Patrick Holland M.D., OB/GYN, Dr. Maura Davenport M.D., and PA-C's Marty Hensel and Pat Watson. You can support the Medical Center by making an appointment to have your medical needs met locally.</p>
 
-<div class="row" style="min-width: 750px;">
+<div class="row" style="min-width: 840px;">
   <div class="cell" style="text-align: center;">
-    <img src="photos/hs_marks.png" class="head-shot" />
+    <img src="photos/hs_marks.png" class="head-shot" style="" />
     <div class="picture-title">Dr. R.D. Marks<br />M.D.Family Practice</div>
   </div>
   <div class="cell" style="text-align: center;">
@@ -52,7 +52,10 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
     <img src="photos/hs_hensel.jpg" class="head-shot"  />
     <div class="picture-title">Marty Hensel<br />PA-C</div>
   </div>
-
+  <div class="cell" style="text-align: center;">
+    <img src="photos/hs_watson.jpg" class="head-shot"  />
+    <div class="picture-title">Patrick Watson<br />PA-C</div>
+  </div>
 </div>
 
 

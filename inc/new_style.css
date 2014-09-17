@@ -187,7 +187,7 @@ border-bottom: 1px solid #666;
 #main-content {
   float: left;
   width: 58%;
-  min-width: 750px;
+  min-width: 850px;
   margin: 0 2% 0 10%;
   }
 
@@ -280,7 +280,7 @@ border-bottom: 1px solid #666;
   }
 
 .head-shot {
-  width: 70%;
+  width: 80%;
   margin: 0.5em 0;
   border: 1px solid #666;
   border-radius: 5px;

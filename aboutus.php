@@ -43,7 +43,7 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
 <p>The Madison Valley Medical Center Foundation was established in 1988 to generate private financial support for the then Madison Valley Hospital &amp; Clinic. The Foundation is a non-profit corporation, governed by an independent board of directors that administers all philanthropic gifts to the Madison Valley Medical Center and its programs.</p>
 
 <div class="cell">
-  <img src="photos/mary_oliver_color_sm.jpg" alt="Mary Oliver, President" class="head-shot" /><div class="picture-title">Mary Oliver<br />Foundation President</div>
+  <img src="photos/coming_soon.jpg" alt="Coming Soon" class="head-shot" /><div class="picture-title">Kim Montag<br />Foundation President</div>
 </div>
 <p>In 2005, the Foundation began a Capital Campaign to generate financial support for the new facility which successfully opened its doors in March of 2009. Through philanthropic partnerships, the Madison Valley Medical Center Foundation strives to ensure that services and programs at the Medical Center will continue to meet the needs of the people living in the Madison Valley and southwestern Montana.</p>
 
@@ -51,21 +51,22 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
 
 <div class="row" style="min-width: 750px; font-size: 0.85em; border-top: 1px solid #ddd; padding-top: 1em;">
   <div class="cell" style="width: 30%; min-width: 225px; padding: 0 0.75em;">
-   <h3>The Foundation<br />Board of Directors FY 2014</h3>
+   <h3>The Foundation<br />Board of Directors FY 2015</h3>
    <ul>
-     <li>Mary Oliver, <em>President</em></li>
-     <li>Steve Love, <em>Vice President</em></li>
-     <li>Kim Montag, <em>Treasurer</em></li>
+     <li>Kim Montag, <em>President</em></li>
+     <li>Amy Kelley, <em>Vice President</em></li>
+     <li>Josh Vujovich, <em>Treasurer</em></li>
      <li>Teresa Dockery, <em>Secretary</em></li>
+     <li>Mary Oliver</li>
      <li>Heidi Gildred</li>
-     <li>Amy Kelley</li>
+     <li>Steve Love</li>
      <li>Dottie Fossel, <em>MVMC Representative</em></li>
-     <li>Manny Hoag, <em>MVMC Representative</em> </li>
+     <li>Manny Hoag, <em>MVMC Representative</em></li>
      <li>John Bishop, <em>MVMC CEO</em></li>
     </ul>
   </div>
   <div class="cell" style="width: 30%; min-width: 225px; padding: 0 0.75em; border-left: 1px solid #ddd; border-right: 1px solid #ddd;"> 
-    <h3>The Madison Valley Medical Center Board of Trustees 2012</h3>
+    <h3>The Madison Valley Medical Center Board of Trustees</h3>
     <ul>
       <li>Dottie Fossel, <em>Board Chairman</em></li>
       <li>Manny Hoag,<em> Secretary &amp; Treasurer</em></li>

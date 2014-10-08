@@ -70,15 +70,15 @@ E-Mail: <a href="mailto:foundation@mvmcf.org">foundation@mvmcf.org</a></p>
 <hr />
 <h2>The Foundation - Board of Directors FY 2014</h2>
    <ul>
-     <li>Mary Oliver, <em>President</em></li>
-     <li>Steve Love, <em>Vice President</em></li>
-     <li>Kim Montag, <em>Treasurer</em></li>
+     <li>Kim Montag, <em>President</em></li>
+     <li>Amy Kelley, <em>Vice President</em></li>
+     <li>Josh Vujovich, <em>Treasurer</em></li>
      <li>Teresa Dockery, <em>Secretary</em></li>
+     <li>Mary Oliver</li>
      <li>Heidi Gildred</li>
-     <li>Gerry Gerron</li>
-     <li>Amy Kelley</li>
+     <li>Steve Love</li>
      <li>Dottie Fossel, <em>MVMC Representative</em></li>
-     <li>Manny Hoag, <em>MVMC Representative</em> </li>
+     <li>Manny Hoag, <em>MVMC Representative</em></li>
      <li>John Bishop, <em>MVMC CEO</em></li>
     </ul>
 

@@ -26,13 +26,7 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
 <p>As an added thanks to our donors who provide these lovely items, we are including their contact information so you can learn more about their work and products. We hope that you will support their business and generosity to the Madison Valley Medical Center Foundation.</p>
 
 <div class="row">
-  <div class="cell" style="padding: 0 2em; width: 40%;">
-    <h2>Larry Zabel</h2>
-    <a href="zabel_prints.php"><img src="photos/late_gather_onthe_gravelly_range_sm.jpg" alt="late gather on the gravelly range" style="margin: 0 2em;" /> <p>Larry Zabel - one of the nation's premier Western artists.</p></a>
-
-    <p>Three framed prints, one giclee, and one unframed print - click here for more information and a photo of each.</p>
-  </div>
-  <div class="cell" style="padding: 0 2em; width: 40%;">
+  <div class="cell" style="padding: 0 2em;">
     <h2>North Side Art Gallery</h2>
     <img src="photos/northside_gallery_dropshadow_sm.jpg" alt="Northside Gallery" style="float: left; margin: 0 0.5em 0.5em 0"/>
     <p>We are proud to present an Art Gallery Wall, with changing displays of art for sale. The proceeds from art sales will benefit The Medical Center as well as the artist.</p>

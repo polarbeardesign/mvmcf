@@ -68,9 +68,9 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
 
 <h1>What's New?</h1>
 
-<a href="newsletters/2014_MVMCF_Summer_News_letter_final.pdf" target="_blank"><img border="0" alt="2013 Summer Newsletter" src="img/2014_newsletter_thumb.png" width="169" height="217" style="display: block; margin: 0 auto;" longdesc="newsletters/2014_summer_newsletter_for_web.pdf" /></a>
+<a href="newsletters/MVMCF2015_Annual_Report_web_FY_2014.pdf" target="_blank"><img border="0" alt="FY14 Annual Report" src="img/Annual_Report_FY2014.jpg" width="169"style="display: block; margin: 0 auto;" longdesc="newsletters/MVMCF2015_Annual_Report_web_FY_2014.pdf" /></a>
 
-<p style="text-align: center;"><a href="newsletters/2014_MVMCF_Summer_News_letter_final.pdf" target="_blank">2014 Summer Newsletter</a></p>
+<p style="text-align: center;"><a href="newsletters/MVMCF2015_Annual_Report_web_FY_2014.pdf" target="_blank">FY14 Annual Report</a></p>
 
 <?php include("sb_mvmc.php"); ?>
 

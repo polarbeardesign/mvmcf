@@ -9,6 +9,9 @@
 Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
 
 <link rel="stylesheet" href="inc/new_style.css" type="text/css">
+
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
 </head>
 <body>
 <a name="top"></a>
@@ -16,9 +19,9 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
 
 <?php include("inc/navigation.php"); ?>
 
-<div style="clear: both;"></div>
+<div id="flex-wrapper">
 
-<section id="main-content">
+<article id="main-content">
 
 <h1>About Us</h1>
 
@@ -40,32 +43,32 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
 <a href="#top" class="inner-nav">back to top</a>
 <h2>Governance &amp; Staff</h2>
 
+<div class="photo-cell">
+  <img src="photos/hs_montag.jpg" alt="Kim Montag" class="head-shot" /><div class="picture-title">Kim Montag<br />Foundation President</div>
+</div>
 <p>The Madison Valley Medical Center Foundation was established in 1988 to generate private financial support for the then Madison Valley Hospital &amp; Clinic. The Foundation is a non-profit corporation, governed by an independent board of directors that administers all philanthropic gifts to the Madison Valley Medical Center and its programs.</p>
 
-<div class="cell">
-  <img src="photos/coming_soon.jpg" alt="Coming Soon" class="head-shot" /><div class="picture-title">Kim Montag<br />Foundation President</div>
-</div>
 <p>In 2005, the Foundation began a Capital Campaign to generate financial support for the new facility which successfully opened its doors in March of 2009. Through philanthropic partnerships, the Madison Valley Medical Center Foundation strives to ensure that services and programs at the Medical Center will continue to meet the needs of the people living in the Madison Valley and southwestern Montana.</p>
 
 <p>The Foundation Board of Directors are volunteers who are dedicated to improving healthcare in our community. Without their efforts and compassion the MVMC Foundation would not exist.</p>
 
-<div class="row" style="min-width: 750px; font-size: 0.85em; border-top: 1px solid #ddd; padding-top: 1em;">
-  <div class="cell" style="width: 30%; min-width: 225px; padding: 0 0.75em;">
+<div class="flex-row top-border">
+  <div class="cell governance">
    <h3>The Foundation<br />Board of Directors FY 2015</h3>
    <ul>
      <li>Kim Montag, <em>President</em></li>
      <li>Amy Kelley, <em>Vice President</em></li>
      <li>Josh Vujovich, <em>Treasurer</em></li>
-     <li>Teresa Dockery, <em>Secretary</em></li>
+     <li>Heidi Gildred, <em>Secretary</em></li>
      <li>Mary Oliver</li>
-     <li>Heidi Gildred</li>
      <li>Steve Love</li>
+     <li>Gerry Gerron</li>
      <li>Dottie Fossel, <em>MVMC Representative</em></li>
      <li>Manny Hoag, <em>MVMC Representative</em></li>
      <li>John Bishop, <em>MVMC CEO</em></li>
     </ul>
   </div>
-  <div class="cell" style="width: 30%; min-width: 225px; padding: 0 0.75em; border-left: 1px solid #ddd; border-right: 1px solid #ddd;"> 
+  <div class="cell governance"> 
     <h3>The Madison Valley Medical Center Board of Trustees</h3>
     <ul>
       <li>Dottie Fossel, <em>Board Chairman</em></li>
@@ -75,7 +78,7 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
       <li>Julia Misero</li>
     </ul>
   </div>
-  <div class="cell" style="width: 30%; min-width: 225px; padding: 0 0 0 0.75em;"> 
+  <div class="cell governance"> 
     <h3>Staff</h3>
     <strong>Executive Director</strong><br />
     <em>Christie S. Trapp</em><br />
@@ -88,7 +91,7 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
     E-Mail: <a href="mailto:foundation@mvmcf.org">foundation@mvmcf.org</a>
   </div>
 </div>
-</section>
+</article>
 
 <section id="content-right">
 
@@ -97,6 +100,8 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
 <?php include("sb_mvmc.php"); ?>
 
 </section>
+
+</div>
 
 <?php include("inc/footer.php"); ?>
 

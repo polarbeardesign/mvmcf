@@ -9,15 +9,18 @@
 Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
 
 <link rel="stylesheet" href="inc/new_style.css" type="text/css">
+
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
 </head>
 <body>
 <?php include("inc/masthead.php"); ?>
 
 <?php include("inc/navigation.php"); ?>
 
-<div style="clear: both;"></div>
+<div id="flex-wrapper">
 
-<section id="main-content">
+<article id="main-content">
 
 <h1>Newsletters &amp; Events</h1>
 
@@ -35,6 +38,8 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
 <p>We are running our 2nd annual on-line fundraising raffle called "Ice Jam" where time slots are sold to predict the date and time within one hour, that the Madison River will ice gorge - for the first time - at the Ennis Bridge, located just south of downtown Ennis, MT.</p>
 
 <p>The one individual who purchases the correct date and time within the hour that the Madison River ice gorges will win-half of the proceeds raised at Ice Jam! More details at the <a href="http://www.icejam.org/">IceJam website.</a></p> 
+
+<p class="small-text">The ICEJAM logo is a trademark of Madison Valley Medical Center Foundation, Inc.</p>
 </div></div>
 
 <hr />
@@ -58,7 +63,7 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
 <a href="newsletters/10_fall_newsletter.pdf">2010 Fall Newsletter - Health News</a><br />
 <a href="newsletters/April_2010_MVMC_Newsletter.pdf">2010 Spring Newsletter - Health News</a></p>
 </div></div>
-</section>
+</article>
 
 <section id="content-right">
 
@@ -67,6 +72,8 @@ Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
 <?php include("sb_mvmc.php"); ?>
 
 </section>
+
+</div>
 
 <?php include("inc/footer.php"); ?>
 

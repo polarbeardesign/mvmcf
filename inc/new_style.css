@@ -181,7 +181,9 @@ border-bottom: 1px solid #666;
 }
 
 
-
+.small-text {
+  font-size: 0.65em;
+  }
 
 
 #main-content {
@@ -277,6 +279,11 @@ border-bottom: 1px solid #666;
 
 .cell {
   float: left;
+  }
+
+.photo-cell {
+  float: left;
+  width: 20%;
   }
 
 .head-shot {

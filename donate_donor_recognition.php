@@ -1,49 +1,71 @@
 <!DOCTYPE html>
 <html>
+  <title></title>
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<title>Madison Valley Medical Center Foundation</title>
-<meta name="description" content= "Madison Valley Medical Center (MVMC) Foundation supporting high quality health care with modern services and qualified professionals"/>
-<meta name="keywords" content= "Madison Valley Medical Center Foundation, MVMCF, MVMC, Madison Valley Medical Center, MADISON VALLEY MEDICAL CENTER, Montana Healthcare,
-Montana Hospital Foundations, Ennis Montana, Ennis, 59729" />
+  <script type="text/javascript">
+  var doc = document.documentElement;
+  doc.setAttribute('data-useragent', navigator.userAgent);
+  </script>
 
-<link rel="stylesheet" href="inc/new_style.css" type="text/css">
+  <link rel="stylesheet" href="inc/ie-hacks.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="inc/style.css" type="text/css" media="screen">
+
+  
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 </head>
+
 <body>
-<?php include("inc/masthead.php"); ?>
 
-<?php include("inc/navigation.php"); ?>
+<div id="container">
 
-<div style="clear: both;"></div>
+<header>
+    <?php include('inc/header.php') ?>
+</header>
 
-<section id="main-content">
+<nav>
+  <?php include('inc/nav.php') ?>
+</nav>
 
-<h1>Donor Recognition</h1>
+<section class="main">
+  <article>
 
-<h2>Every Gift is Special</h2>
+    <h1>Donor Recognition</h1>
 
-<p>We recognize our donors are special partners in the healing mission of the Madison Valley Medical Center Foundation. As an expression of gratitude, donors are recognized in the Foundation's Annual Report.</p>
+    <h2>Every Gift is Special</h2>
 
-<p>A beautiful donor wall permanently recognizes cumulative gifts of more than $3,000,000 given for the Capital Campaign. That campaign raised funds for the current Medical Center facility - which opened it doors in March of 2009. The display is housed in the hospital lobby and stands as a symbol of caring and commitment.</p>
+    <p>We recognize our donors are special partners in the healing mission of the Madison Valley Medical Center Foundation. As an expression of gratitude, donors are recognized in the Foundation's Annual Report.</p>
 
-<p>Many supporters have donated to rooms or departments of the Madison Valley Medical Center. The Foundation has recognized these donors with beautiful glass plaques, and named the departments after those donors.</p>
+    <p>A beautiful donor wall permanently recognizes cumulative gifts of more than $3,000,000 given for the Capital Campaign. That campaign raised funds for the current Medical Center facility - which opened it doors in March of 2009. The display is housed in the hospital lobby and stands as a symbol of caring and commitment.</p>
 
-<p>There are still a few naming recognition opportunities. For more information please contact the Foundation at (406) 682-6641.</p>
+    <p>Many supporters have donated to rooms or departments of the Madison Valley Medical Center. The Foundation has recognized these donors with beautiful glass plaques, and named the departments after those donors.</p>
 
+    <p>There are still a few naming recognition opportunities. For more information please contact the Foundation at (406) 682-6641.</p>
+
+
+  </article>
+
+  <section class="sidebar">
+      
+      <?php include("sb_donate.php"); ?>
+      
+      <h1>What's New?</h1>
+
+      <a href="newsletters/MVMCF2015_Annual_Report_web_FY_2014.pdf" target="_blank"><img border="0" alt="FY14 Annual Report" src="img/Annual_Report_FY2014.jpg" width="169"style="display: block; margin: 0 auto;" longdesc="newsletters/MVMCF2015_Annual_Report_web_FY_2014.pdf" /></a>
+
+      <p style="text-align: center;"><a href="newsletters/MVMCF2015_Annual_Report_web_FY_2014.pdf" target="_blank">FY14 Annual Report</a></p>
+
+      <?php include("sb_mvmc.php"); ?>
+  </section>
 </section>
 
-<section id="content-right">
+<footer>
+  <div class="copyright">
+    <?php include('inc/footer.php') ?>
+  </div>
+</footer>
 
-<?php include("sb_donate.php"); ?>
-
-<?php include("sb_mvmc.php"); ?>
-
-</section>
-
-<?php include("inc/footer.php"); ?>
-
-<?php include("inc/analytics.php"); ?>
+</div>
 
 </body>
+
 </html>

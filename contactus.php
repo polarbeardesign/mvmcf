@@ -77,21 +77,6 @@
     </div>
     </div>
 
-    <hr />
-    <h2>The Foundation - Board of Directors FY 2014</h2>
-       <ul>
-         <li>Kim Montag, <em>President</em></li>
-         <li>Amy Kelley, <em>Vice President</em></li>
-         <li>Josh Vujovich, <em>Treasurer</em></li>
-         <li>Teresa Dockery, <em>Secretary</em></li>
-         <li>Mary Oliver</li>
-         <li>Heidi Gildred</li>
-         <li>Steve Love</li>
-         <li>Dottie Fossel, <em>MVMC Representative</em></li>
-         <li>Manny Hoag, <em>MVMC Representative</em></li>
-         <li>John Bishop, <em>MVMC CEO</em></li>
-        </ul>
-
   </article>
 
   <section class="sidebar">

@@ -59,15 +59,13 @@
 
     <div class="row top-border">
       <div class="cell governance">
-       <h3>The Foundation<br />Board of Directors FY 2015</h3>
+       <h3>The Foundation<br />Board of Directors FY 2016</h3>
        <ul>
          <li>Kim Montag, <em>President</em></li>
          <li>Amy Kelley, <em>Vice President</em></li>
          <li>Josh Vujovich, <em>Treasurer</em></li>
          <li>Heidi Gildred, <em>Secretary</em></li>
          <li>Mary Oliver</li>
-         <li>Steve Love</li>
-         <li>Gerry Gerron</li>
          <li>Tom Riggs</li>
          <li>Dottie Fossel, <em>MVMC Representative</em></li>
          <li>Manny Hoag, <em>MVMC Representative</em></li>

@@ -66,7 +66,6 @@
          <li>Josh Vujovich, <em>Treasurer</em></li>
          <li>Heidi Gildred, <em>Secretary</em></li>
          <li>Mary Oliver</li>
-         <li>Tom Riggs</li>
          <li>Dottie Fossel, <em>MVMC Representative</em></li>
          <li>Manny Hoag, <em>MVMC Representative</em></li>
          <li>John Bishop, <em>MVMC CEO</em></li>
@@ -88,11 +87,6 @@
         <em>Christie S. Trapp</em><br />
         Phone: (406) 682-6630<br />
         E-Mail: <a href="mailto:ctrapp@mvmcf.org">ctrapp@mvmcf.org</a><br />
-        <br />
-        <strong>Executive Assistant</strong><br />
-        <em>Jennifer Barsness</em><br />
-        Phone: (406) 682-6641<br />
-        E-Mail: <a href="mailto:foundation@mvmcf.org">foundation@mvmcf.org</a>
       </div>
     </div>
   </article>

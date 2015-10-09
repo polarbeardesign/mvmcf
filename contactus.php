@@ -64,19 +64,6 @@
     </div>
     </div>
 
-    <div class="row">
-      <div class="cell" style="width: 175px;">
-        &nbsp;
-      </div>
-    <div class="cell" style="width: 500px;">
-
-    <p><strong>Executive Assistant</strong><br />
-    Jennifer Barsness<br />
-    Phone: (406) 682-6641<br />
-    E-Mail: <a href="mailto:foundation@mvmcf.org">foundation@mvmcf.org</a></p>
-    </div>
-    </div>
-
   </article>
 
   <section class="sidebar">

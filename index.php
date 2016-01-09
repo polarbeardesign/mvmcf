@@ -43,32 +43,42 @@
 
     <h1>The Medical Center has Six Board Certified Physicians and Staff</h1>
 
-    <p>The Medical Center has six <a href="http://www.mvmedcenter.org/team/physicians-staff/">board certified Physicians and Staff.</a> Dr. R.D. Marks, M.D. is the Chief of medical staff. The other providers are; Dr. Curtis Blake M.D., Dr. Patrick Holland M.D., OB/GYN, Dr. Maura Davenport M.D., and PA-C's Marty Hensel and Pat Watson. You can support the Medical Center by making an appointment to have your medical needs met locally.</p>
+    <p>The Medical Center has seven <a href="http://www.mvmedcenter.org/team/physicians-staff/">board certified Physicians and Staff.</a> Dr. R.D. Marks, M.D. is the Chief of medical staff. The other providers are; Dr. Curtis Blake M.D., Dr. Patrick Holland M.D., OB/GYN, Dr. Maura Davenport M.D., and PA-C's Marty Hensel, Pat Watson and Tabitha Phillips. You can support the Medical Center by making an appointment to have your medical needs met locally.</p>
 
     <div class="row">
       <div class="head-shot">
-        <img src="photos/hs_marks.png" />
+        <img src="photos/hs_rd_marks.jpg" />
         <div class="picture-title">Dr. R.D. Marks<br />M.D.Family Practice</div>
       </div>
       <div class="head-shot">
-        <img src="photos/hs_blake.jpg" />
+        <img src="photos/hs_c_blake.jpg" />
         <div class="picture-title">Dr. Curtis Blake<br />M.D.Family Practice</div>
       </div>
       <div class="head-shot">
-        <img src="photos/hs_holland.jpg" />
+        <img src="photos/hs_p_holland.jpg" />
         <div class="picture-title">Dr. Patrick Holland<br />M.D.OB/GYN</div>
       </div>
       <div class="head-shot">
-        <img src="photos/hs_davenport.jpg" />
+        <img src="photos/hs_m_davenport.jpg" />
         <div class="picture-title">Maura Davenport<br />M.D.</div>
       </div>
+      </div>
+      <br />
+      <div class="row">
       <div class="head-shot">
-        <img src="photos/hs_hensel.jpg" />
+        <img src="photos/hs_m_hensel.jpg" />
         <div class="picture-title">Marty Hensel<br />PA-C</div>
       </div>
       <div class="head-shot">
-        <img src="photos/hs_watson.jpg" />
+        <img src="photos/hs_p_watson.jpg" />
         <div class="picture-title">Patrick Watson<br />PA-C</div>
+      </div>
+      <div class="head-shot">
+        <img src="photos/hs_t_phillips.jpg" />
+        <div class="picture-title">Tabitha Phillips<br />PA-C</div>
+      </div>
+      <div class="head-shot">
+        &nbsp;
       </div>
     </div>
   </article>
@@ -79,9 +89,7 @@
       
       <h1>What's New?</h1>
 
-      <a href="newsletters/mvmcf_News_letter_2015_web.pdf" target="_blank"><img border="0" alt="MVMC Newsletter 2015" src="img/mvmcf_News_letter_2015_web.jpg" width="169"style="display: block; margin: 0 auto;" longdesc="newsletters/mvmc_News_letter_2015_web.pdf" /></a>
-
-      <p style="text-align: center;"><a href="newsletters/mvmc_News_letter_2015_web.pdf" target="_blank">MVMCF Newsletter 2015</a></p>
+      We would like to thank all our donors for more than $100,000.00 raised during the Annual Holiday Appeal. 
 
       <?php include("sb_mvmc.php"); ?>
   </section>

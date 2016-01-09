@@ -47,34 +47,34 @@
 
     <div class="row">
       <div class="head-shot">
-        <img src="photos/hs_rd_marks.jpg" />
+        <img src="photos/hs_rd_marks_480_600.jpg" />
         <div class="picture-title">Dr. R.D. Marks<br />M.D.Family Practice</div>
       </div>
       <div class="head-shot">
-        <img src="photos/hs_c_blake.jpg" />
+        <img src="photos/hs_c_blake_480_600.jpg" />
         <div class="picture-title">Dr. Curtis Blake<br />M.D.Family Practice</div>
       </div>
       <div class="head-shot">
-        <img src="photos/hs_p_holland.jpg" />
+        <img src="photos/hs_p_holland_480_600.jpg" />
         <div class="picture-title">Dr. Patrick Holland<br />M.D.OB/GYN</div>
       </div>
       <div class="head-shot">
-        <img src="photos/hs_m_davenport.jpg" />
+        <img src="photos/hs_m_davenport_480_600.jpg" />
         <div class="picture-title">Maura Davenport<br />M.D.</div>
       </div>
       </div>
       <br />
       <div class="row">
       <div class="head-shot">
-        <img src="photos/hs_m_hensel.jpg" />
+        <img src="photos/hs_m_hensel_480_600.jpg" />
         <div class="picture-title">Marty Hensel<br />PA-C</div>
       </div>
       <div class="head-shot">
-        <img src="photos/hs_p_watson.jpg" />
+        <img src="photos/hs_p_watson_480_600.jpg" />
         <div class="picture-title">Patrick Watson<br />PA-C</div>
       </div>
       <div class="head-shot">
-        <img src="photos/hs_t_phillips.jpg" />
+        <img src="photos/hs_t_phillips_480_600.jpg" />
         <div class="picture-title">Tabitha Phillips<br />PA-C</div>
       </div>
       <div class="head-shot">

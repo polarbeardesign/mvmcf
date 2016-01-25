@@ -1,3 +1,7 @@
+<?php
+date_default_timezone_set('America/Denver');
+?>
+
 <div class="menu-link inner-nav">
   <a href="#nav">menu</a>
 </div>

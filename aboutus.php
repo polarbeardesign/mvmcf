@@ -33,16 +33,16 @@
     <a name="mission"></a>
     <h2>Our Mission</h2>
 
-    <p>The Madison Valley Medical Center Foundation Inc. is a community based, not-for-profit corporation which exists to inspire gifts and grants from individuals, foundations, corporations and other entities to support the health and well-being of people in Madison County and adjacent communities in southwest Montana.</p>
+    <p>The Madison Valley Medical Center Foundation Inc. is a community based, non-profit corporation which exists to inspire gifts and grants from individuals, foundations, corporations and other entities to support the health and well-being of people in Madison County and adjacent communities in southwest Montana.</p>
     <a name="vision"></a>
     <a href="#top" class="inner-nav">back to top</a>
     <h2>Our Vision</h2>
 
-    <p>The Madison Valley Medical Center Foundation will be the premier organization for ensuring the understanding and funding of health and wellness needs in our region.</p>
+    <p>Madison Valley Medical Center Foundation will be the premier organization to ensure the health and wellness needs in our region are not only met, but exceeded.</p>
     <ul>
-      <li>As the philanthropic arm of the Madison Valley Medical Center, the Foundation develops resources to make a positive impact on the health of our community through support of the Medical Center's mission and priorities.</li>
-      <li>We will maximize annual support to meet immediate needs and develop a strong endowment to allow flexibility for future capital and special project needs.</li>
-      <li>We will exceed the expectations of our donors and our community through diligent leadership and exemplary stewardship.</li>
+      <li>As the philanthropic arm of the Madison Valley Medical Center, the Foundation develops manages, and distributes resources to advance the delivery of high-quality health care by the Madison Valley Medical Center to make a positive impact on the health of our community.</li>
+      <li>We maximize annual support to meet immediate needs and are growing long-term funds to allow flexibility for perpetuity and future innovation.</li>
+      <li>We work to exceed the expectations of our donors and our community through diligent leadership and exemplary stewardship.</li>
     </ul>
     <a name="governance"></a>
     <a href="#top" class="inner-nav">back to top</a>
@@ -72,16 +72,6 @@
         </ul>
       </div>
       <div class="cell governance"> 
-        <h3>The Madison Valley Medical Center Board of Trustees</h3>
-        <ul>
-          <li>Dottie Fossel, <em>Board Chairman</em></li>
-          <li>Manny Hoag,<em> Secretary &amp; Treasurer</em></li>
-          <li>Sylvia Carpenter</li>
-          <li>A.J. Fred Donich Jr.</li>
-          <li>Julia Misero</li>
-        </ul>
-      </div>
-      <div class="cell governance"> 
         <h3>Staff</h3>
         <strong>Executive Director</strong><br />
         <em>Christie S. Trapp</em><br />
@@ -97,9 +87,7 @@
       
       <h1>What's New?</h1>
 
-      <a href="newsletters/MVMCF2015_Annual_Report_web_FY_2014.pdf" target="_blank"><img border="0" alt="FY14 Annual Report" src="img/Annual_Report_FY2014.jpg" width="169"style="display: block; margin: 0 auto;" longdesc="newsletters/MVMCF2015_Annual_Report_web_FY_2014.pdf" /></a>
-
-      <p style="text-align: center;"><a href="newsletters/MVMCF2015_Annual_Report_web_FY_2014.pdf" target="_blank">FY14 Annual Report</a></p>
+      We would like to thank all our donors for more than $100,000.00 raised during the Annual Holiday Appeal. 
 
       <?php include("sb_mvmc.php"); ?>
   </section>

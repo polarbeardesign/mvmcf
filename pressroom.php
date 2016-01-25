@@ -405,9 +405,7 @@
       
       <h1>What's New?</h1>
 
-      <a href="newsletters/MVMCF2015_Annual_Report_web_FY_2014.pdf" target="_blank"><img border="0" alt="FY14 Annual Report" src="img/Annual_Report_FY2014.jpg" width="169"style="display: block; margin: 0 auto;" longdesc="newsletters/MVMCF2015_Annual_Report_web_FY_2014.pdf" /></a>
-
-      <p style="text-align: center;"><a href="newsletters/MVMCF2015_Annual_Report_web_FY_2014.pdf" target="_blank">FY14 Annual Report</a></p>
+      We would like to thank all our donors for more than $100,000.00 raised during the Annual Holiday Appeal. 
 
       <?php include("sb_mvmc.php"); ?>
   </section>

@@ -34,7 +34,7 @@
 
     <p>Madison Valley Medical Center Foundation's definition of a Cornerstone Club member is one who supports the Foundation by making an annual commitment to contribute quarterly to insure a regular source of funds in support of the Medical Center's mission.</p>
 
-    <p>One of the challenges to running a successful not-for-profit Medical Center is to ensure that there is adequate resources year round to support the operation to make sure that the highest-quality of health care is available in the community.</p>
+    <p>One of the challenges to running a successful non-profit Medical Center is to ensure that there is adequate resources year round to support the operation to make sure that the highest-quality of health care is available in the community.</p>
 
     <p>Through quarterly donations, Cornerstone Club members provide the Madison Valley Medical Center Foundation with a consistent and reliable source of funding that allows us to plan ahead for the needs of the Medical Center.</p>
 
@@ -85,9 +85,7 @@
       
       <h1>What's New?</h1>
 
-      <a href="newsletters/MVMCF2015_Annual_Report_web_FY_2014.pdf" target="_blank"><img border="0" alt="FY14 Annual Report" src="img/Annual_Report_FY2014.jpg" width="169"style="display: block; margin: 0 auto;" longdesc="newsletters/MVMCF2015_Annual_Report_web_FY_2014.pdf" /></a>
-
-      <p style="text-align: center;"><a href="newsletters/MVMCF2015_Annual_Report_web_FY_2014.pdf" target="_blank">FY14 Annual Report</a></p>
+      We would like to thank all our donors for more than $100,000.00 raised during the Annual Holiday Appeal. 
 
       <?php include("sb_mvmc.php"); ?>
   </section>

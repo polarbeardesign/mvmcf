@@ -35,7 +35,7 @@
   <article>
     <h1>Working Together, Making a Difference<br />in the Health of Our Community</h1>
 
-    <p>As a not-for-profit corporation, the Madison Valley Medical Center Foundation (MVMCF) exists solely to support the mission of the Medical Center and the programs and services it provides.</p>
+    <p>As a non-profit corporation, the Madison Valley Medical Center Foundation (MVMCF) exists solely to support the mission of the Medical Center and the programs and services it provides.</p>
 
     <p>The Foundation accepts contributions from individuals, corporations, foundations, and other donors for facility improvement, equipment purchases and health programs designed to enhance the quality of life for residents of Madison County and southwestern Montana.</p>
 

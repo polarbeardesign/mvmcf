@@ -45,7 +45,7 @@
 
     <p>The Medical Center has seven <a href="http://www.mvmedcenter.org/team/physicians-staff/">board certified Physicians and Staff.</a> Dr. R.D. Marks, M.D. is the Chief of medical staff. The other providers are; Dr. Curtis Blake M.D., Dr. Patrick Holland M.D., OB/GYN, Dr. Maura Davenport M.D., and PA-C's Marty Hensel, Pat Watson and Tabitha Phillips. You can support the Medical Center by making an appointment to have your medical needs met locally.</p>
 
-    <div class="row">
+    <div class="row-centered">
       <div class="head-shot">
         <img src="photos/hs_rd_marks_480_600.jpg" />
         <div class="picture-title">Dr. R.D. Marks<br />M.D.Family Practice</div>
@@ -62,9 +62,7 @@
         <img src="photos/hs_m_davenport_480_600.jpg" />
         <div class="picture-title">Maura Davenport<br />M.D.</div>
       </div>
-      </div>
-      <br />
-      <div class="row">
+
       <div class="head-shot">
         <img src="photos/hs_m_hensel_480_600.jpg" />
         <div class="picture-title">Marty Hensel<br />PA-C</div>
@@ -77,9 +75,6 @@
         <img src="photos/hs_t_phillips_480_600.jpg" />
         <div class="picture-title">Tabitha Phillips<br />PA-C</div>
       </div>
-      <div class="head-shot">
-        &nbsp;
-      </div>
     </div>
   </article>
 
@@ -91,9 +86,9 @@
       
       <h1>What's New?</h1>
 
-      <a href="newsletters/MVMCF_Fiscal2015_annual_report_web.pdf" target="_blank"><img border="0" alt="FY14 Annual Report" src="newsletters/2015_annual_report_sm.jpg" width="169"style="display: block; margin: 0 auto;" longdesc="newsletters/MVMCF_Fiscal2015_annual_report_web.pdf" /></a>
+      <a href="newsletters/MV_Newsletter_2016_ONLINE.pdf" target="_blank"><img border="0" alt="2016 Newsletter" src="img/2016_newsletter_thumb.jpg" width="169"style="display: block; margin: 0 auto;" longdesc="newsletters/MV_Newsletter_2016_ONLINE.pdf" /></a>
 
-       <p style="text-align: center;"><a href="newsletters/MVMCF_Fiscal2015_annual_report_web.pdf" target="_blank">FY15 Annual Report</a></p>
+       <p style="text-align: center;"><a href="newsletters/MV_Newsletter_2016_ONLINE.pdf" target="_blank">MVMCF Newsletter 2016</a></p>
 
       <?php include("sb_mvmc.php"); ?>
   </section>

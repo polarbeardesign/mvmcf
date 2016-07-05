@@ -142,8 +142,21 @@ ol {
   flex-flow: row wrap;
   }
 
+.row-centered {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	-justify-content: center;
+  }
+  
 .head-shot {
-  width: 30%
+  width: 45%;
+  margin-bottom: 2em;
   }
 
 .head-shot img {
@@ -471,11 +484,6 @@ article {
   background: #fff;
   }
 
-
-.head-shot {
-  width: 30%;
-  }
-
 footer {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -508,6 +516,10 @@ footer a, footer a:visited {
 Wide Style
 -------------------------------------------------------*/
 @media only screen and (min-width: 800px) {
+
+.head-shot {
+  width: 25%;
+  }
 
 .menu-link {
   display: none;

@@ -30,7 +30,9 @@
   <article>
 
     <h1>Newsletters &amp; Events</h1>
+    <hr />
 
+<img src="img/Madisonian_ad_website.jpg" width="100%" />
     <hr />
 
     <h2>Newsletters</h2>

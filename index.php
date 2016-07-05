@@ -85,6 +85,8 @@
 
   <section class="sidebar">
       
+      <a href="news_events.php"><img src="img/Madisonian_ad_website.jpg" width="100%" /></a>
+      
       <?php include("sb_donate.php"); ?>
       
       <h1>What's New?</h1>

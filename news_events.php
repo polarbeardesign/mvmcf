@@ -32,7 +32,7 @@
     <h1>Newsletters &amp; Events</h1>
     <hr />
 
-<img src="img/Madisonian_ad_website.jpg" width="100%" />
+<img src="img/Madisonian_ad_website.jpg" width="50%" />
     <hr />
 
     <h2>Newsletters</h2>
@@ -54,7 +54,7 @@
       
       <h1>What's New?</h1>
 
-      We would like to thank all our donors for more than $100,000.00 raised during the Annual Holiday Appeal. 
+      <p>We would like to thank all our donors for more than $75,000.00 raised at the Mad Hatter's Luncheon and Tea Party Fundraiser for Women's Health Mammography.</p> 
 
       <?php include("sb_mvmc.php"); ?>
   </section>

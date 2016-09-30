@@ -43,7 +43,7 @@
 
     <h1>The Medical Center has Seven Board Certified Physicians and Staff</h1>
 
-    <p>The Medical Center has seven <a href="http://www.mvmedcenter.org/team/physicians-staff/">board certified Physicians and Staff.</a> Dr. R.D. Marks, M.D. is the Chief of medical staff. The other providers are; Dr. Curtis Blake M.D., Dr. Patrick Holland M.D., OB/GYN, Dr. Maura Davenport M.D., and PA-C's Marty Hensel, Pat Watson and Tabitha Phillips. You can support the Medical Center by making an appointment to have your medical needs met locally.</p>
+    <p>The Medical Center has seven <a href="http://www.mvmedcenter.org/team/physicians-staff/">board certified Physicians and Staff.</a> Dr. R.D. Marks, M.D. is the Chief of medical staff. The other providers are; Dr. Curtis Blake M.D., Dr. Patrick Holland M.D., OB/GYN, Dr. Maura Davenport M.D., Dr. DB Newton and PA-C's Marty Hensel and Pat Watson. You can support the Medical Center by making an appointment to have your medical needs met locally.</p>
 
     <div class="row-centered">
       <div class="head-shot">
@@ -62,7 +62,10 @@
         <img src="photos/hs_m_davenport_480_600.jpg" />
         <div class="picture-title">Maura Davenport<br />M.D.</div>
       </div>
-
+      <div class="head-shot">
+        <img src="photos/hs_db_newton_480_600.jpg" />
+        <div class="picture-title">DB Newton<br />M.D.</div>
+      </div>
       <div class="head-shot">
         <img src="photos/hs_m_hensel_480_600.jpg" />
         <div class="picture-title">Marty Hensel<br />PA-C</div>
@@ -71,24 +74,19 @@
         <img src="photos/hs_p_watson_480_600.jpg" />
         <div class="picture-title">Patrick Watson<br />PA-C</div>
       </div>
-      <div class="head-shot">
-        <img src="photos/hs_t_phillips_480_600.jpg" />
-        <div class="picture-title">Tabitha Phillips<br />PA-C</div>
-      </div>
     </div>
   </article>
 
   <section class="sidebar">
       
-      <a href="news_events.php"><img src="img/Madisonian_ad_website.jpg" width="100%" /></a>
-      
       <?php include("sb_donate.php"); ?>
       
       <h1>What's New?</h1>
 
-      <a href="newsletters/MV_Newsletter_2016_ONLINE.pdf" target="_blank"><img border="0" alt="2016 Newsletter" src="img/2016_newsletter_thumb.jpg" width="169"style="display: block; margin: 0 auto;" longdesc="newsletters/MV_Newsletter_2016_ONLINE.pdf" /></a>
+      <p class="pink-highlight">The Foundation raised $225,000.00 that is restricted to the Medical Center's Women's Health/ Mammography program. Thank you to all our donors who supported this life changing campaign! Since the Medical Center's program inception in January 2016, the Madison Valley Medical Center has seen more than 175 patients.</p>
 
-       <p style="text-align: center;"><a href="newsletters/MV_Newsletter_2016_ONLINE.pdf" target="_blank">MVMCF Newsletter 2016</a></p>
+
+      <img src="img/Madisonian_ad_website.jpg" width="50%" style="display: block;margin: 0 auto;"/><p>We would like to thank all our donors for more than $75,000.00 raised at the Mad Hatter's Luncheon and Tea Party Fundraiser for Women's Health Mammography.</p>
 
       <?php include("sb_mvmc.php"); ?>
   </section>

@@ -484,6 +484,18 @@ article {
   background: #fff;
   }
 
+.pink-highlight {
+  padding: 1em;
+  color: #333;
+  font-weight: normal;
+  text-shadow: 0.5px 0.5px #ddd;
+  background: url('../img/pink_ribbon.png') center no-repeat;
+  border: 1px solid #999;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
 footer {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -673,6 +685,11 @@ article {
 
 .news-pic {
   width: 25%;
+  }
+
+.smaller-pic img {
+  width: 90px;
+  margin-left: 25%;
   }
 
 .news-title {

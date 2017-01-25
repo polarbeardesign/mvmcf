@@ -49,9 +49,6 @@
       
       <?php include("sb_donate.php"); ?>
       
-      <h1>What's New?</h1>
-
-
       <?php include("sb_mvmc.php"); ?>
   </section>
 </section>

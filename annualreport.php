@@ -39,6 +39,21 @@
     <p><em>You will need acrobat reader to view these documents.</em></p>
 
     <div class="annual-report">
+    <h2>2016</h2>
+    <p>Reports for the 2016 fiscal year (October 1, 2015 - September 30, 2016).
+      <div class="row row-sa">
+        <div class="annual-report-item">
+          2016 Annual Report<br />
+          <em>Coming Soon</em>
+        </div>
+        <div class="annual-report-item">
+          <a href="newsletters/MVMCF_FY2016_Form_990.pdf">2016 Form 990</a><br />
+            <a href="newsletters/MVMCF_FY2016_Form_990.pdf"><img src="photos/form_990_curled.jpg" alt="2016 Form 990" width="228" height="233" border="0"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="annual-report">
     <h2>2015</h2>
     <p>Reports for the 2015 fiscal year (October 1, 2014 - September 30, 2015).
       <div class="row row-sa">
@@ -53,21 +68,6 @@
       </div>
     </div>
 
-    <div class="annual-report">
-    <h2>2014</h2>
-    <p>Reports for the 2014 fiscal year (October 1, 2013 - September 30, 2014).
-      <div class="row row-sa">
-        <div class="annual-report-item">
-          <a href="newsletters/MVMCF2015_Annual_Report_web_FY_2014.pdf">2014 Annual Report</a><br />
-          <a href="newsletters/MVMCF2015_Annual_Report_web_FY_2014.pdf"><img src="img/Annual_Report_FY2014.jpg" alt="2014 Annual Report" width="311" height="240" border="0"></a>
-        </div>
-        <div class="annual-report-item">
-          <a href="newsletters/FY2014_Form_990_for_public_distribution.pdf">2014 Form 990</a><br />
-            <a href="newsletters/FY2014_Form_990_for_public_distribution.pdf"><img src="photos/form_990_curled.jpg" alt="2014 Form 990" width="228" height="233" border="0"></a>
-        </div>
-      </div>
-    </div>
-
   </article>
 
   <section class="sidebar">
@@ -76,7 +76,7 @@
       
       <h1>What's New?</h1>
 
-      <img src="img/Madisonian_ad_website.jpg" width="50%" style="display: block;margin: 0 auto;"/><p>We would like to thank all our donors for more than $75,000.00 raised at the Mad Hatter's Luncheon and Tea Party Fundraiser for Women's Health Mammography.</p>
+
       <?php include("sb_mvmc.php"); ?>
   </section>
 </section>

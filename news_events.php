@@ -32,9 +32,6 @@
     <h1>Newsletters &amp; Events</h1>
     <hr />
 
-<img src="img/Madisonian_ad_website.jpg" width="50%" />
-    <hr />
-
     <h2>Newsletters</h2>
     <div class="row">
     <div class="cell" style="width: 30%;">

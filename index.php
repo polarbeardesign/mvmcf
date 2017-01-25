@@ -86,7 +86,7 @@
       <p class="pink-highlight">The Foundation raised $225,000.00 that is restricted to the Medical Center's Women's Health/ Mammography program. Thank you to all our donors who supported this life changing campaign! Since the Medical Center's program inception in January 2016, the Madison Valley Medical Center has seen more than 175 patients.</p>
 
 
-      <img src="img/Madisonian_ad_website.jpg" width="50%" style="display: block;margin: 0 auto;"/><p>We would like to thank all our donors for more than $75,000.00 raised at the Mad Hatter's Luncheon and Tea Party Fundraiser for Women's Health Mammography.</p>
+
 
       <?php include("sb_mvmc.php"); ?>
   </section>

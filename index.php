@@ -83,10 +83,8 @@
       
       <h1>What's New?</h1>
 
-      <p class="pink-highlight">The Foundation raised $225,000.00 that is restricted to the Medical Center's Women's Health/ Mammography program. Thank you to all our donors who supported this life changing campaign! Since the Medical Center's program inception in January 2016, the Madison Valley Medical Center has seen more than 400 patients.</p>
-
-
-
+          <a href="newsletters/MVMCF_AnnualReportFY_2016.pdf">2016 Annual Report</a><br />
+          <a href="newsletters/MVMCF_AnnualReportFY_2016.pdf"><img src="newsletters/2016_annual_report_sm.jpg" alt="2014 Annual Report" width="213" height="167" border="0"></a>
 
       <?php include("sb_mvmc.php"); ?>
   </section>

@@ -43,8 +43,8 @@
     <p>Reports for the 2016 fiscal year (October 1, 2015 - September 30, 2016).
       <div class="row row-sa">
         <div class="annual-report-item">
-          2016 Annual Report<br />
-          <em>Coming Soon</em>
+          <a href="newsletters/MVMCF_AnnualReportFY_2016.pdf">2016 Annual Report</a><br />
+          <a href="newsletters/MVMCF_AnnualReportFY_2016.pdf"><img src="newsletters/2016_annual_report_sm.jpg" alt="2014 Annual Report" width="213" height="167" border="0"></a>
         </div>
         <div class="annual-report-item">
           <a href="newsletters/MVMCF_FY2016_Form_990.pdf">2016 Form 990</a><br />

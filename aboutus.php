@@ -63,12 +63,12 @@
        <ul>
          <li>Kim Montag,<br /><em>President</em></li>
          <li>Amy Kelley,<br /><em>Vice President</em></li>
-         <li>Josh Vujovich,<br /><em>Treasurer</em></li>
+         <li>Tim Combs,<br /><em>Treasurer</em></li>
          <li>Heidi Gildred,<br /><em>Secretary</em></li>
          <li>Suz Richards</li>
-         <li>Tim Combs</li>
+         <li>Josh Vujovich</li>
          <li>Dottie Fossel,<br /><em>MVMC Representative</em></li>
-         <li>Manny Hoag,<br /><em>MVMC Representative</em></li>
+         <li>Fred Donich,<br /><em>MVMC Representative</em></li>
          <li>Allen Rohrback,<br /><em>MVMC CEO</em></li>
         </ul>
       </div>

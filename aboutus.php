@@ -67,6 +67,7 @@
          <li>Heidi Gildred,<br /><em>Secretary</em></li>
          <li>Suz Richards</li>
          <li>Josh Vujovich</li>
+         <li>Susan Metzger</li>
          <li>Dottie Fossel,<br /><em>MVMC Representative</em></li>
          <li>Fred Donich,<br /><em>MVMC Representative</em></li>
          <li>Allen Rohrback,<br /><em>MVMC CEO</em></li>

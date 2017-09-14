@@ -67,7 +67,7 @@
 
     <p>By hearing about your gift intentions, the Foundation may better prepare to receive your future gift and say a heartfelt "thank you" today.</p>
 
-    <p>Please contact us if you wish to confirm a bequest in your will to the Foundation. If you have any questions, or would like more information about including the Foundation in your will, please contact Christie S. Trapp, Executive Director, at 406-682-6641.</p>
+    <p>Please contact us if you wish to confirm a bequest in your will to the Foundation. If you have any questions, or would like more information about including the Foundation in your will, please contact 406-682-6641.</p>
 
 
   </article>

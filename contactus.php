@@ -43,26 +43,7 @@
     <p class="indent">Phone: (406) 682-6641<br />
     FAX: (406) 682-6620<br />
     E-Mail: foundation@mvmcf.org</p>
-    <hr />
-    <h2>Staff</h2>
 
-
-    <div class="row">
-      <div class="cell" style="width: 175px;">
-        <img src="photos/13_Christie.jpg" alt="Christie S. Trapp" />
-      </div>
-    <div class="cell" style="width: 500px;">
-
-    <p><strong>Executive Director</strong><br />
-    Christie S. Trapp<br />
-    Phone: (406) 682-6630<br />
-    E-Mail: <a href="mailto:ctrapp@mvmcf.org">ctrapp@mvmcf.org</a></p>
-
-    <p>Christie Trapp joined the Madison Valley Medical Center Foundation in the winter of 2010, bringing more than 20 years of executive experience in non-profit and business management to the Foundation.</p>
-    <p>Prior to joining the Foundation, Christie helped to build impact and create long-term sustainability of a Texas non-profit Habitat for Humanity who is dedicated to the principle that that every man, woman and child should have a decent, safe and affordable place to live.  Christie was also influential in the development of the City of Georgetown, Texas 2030 Comprehensive Communication Plan. In addition,  she worked for more than seven years for the global photomask lithography division of DuPont in the marketing department to communicate the  company's value across U.S., Asian and European markets.</p> 
-    <p>With a life time appreciation of the Madison Valley, Christie is glad to be back home in Montana and able to use her strategic vision and donor relations to promote the interdependence of quality health care and improved health outcomes for visitors and residents of the Madison Valley.</p>
-    </div>
-    </div>
 
   </article>
 

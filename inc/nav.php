@@ -13,7 +13,6 @@
   <li><a href="donation.php">Support</a>
     <ul>
       <li><a href="donation.php">Donate Now</a></li>
-      <li><a href="donate_cornerstone_club.php">Cornerstone Club</a></li>
       <li><a href="donate_memorials.php">Honorary &amp; Memorial Donations</a></li>
       <li><a href="donate_employer_match.php">Employer Match</a></li>
       <li><a href="donate_planned_giving.php">Planned Giving</a></li>

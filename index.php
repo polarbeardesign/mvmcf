@@ -39,11 +39,9 @@
 
     <p>The Foundation accepts contributions from individuals, corporations, foundations, and other donors for facility improvement, equipment purchases and health programs designed to enhance the quality of life for residents of Madison County and southwestern Montana.</p>
 
-    <p>The Foundation is very fortunate to have the support of community members, especially the members of the Medical Center Auxiliary Association. These dedicated men and women work tirelessly to help raise funds for the Medical Center as well as serve as the Medical Center&rsquo;s &ldquo;ambassadors&rdquo; out in the community.</p>
+    <h1>The Medical Center has Six Board Certified Physicians and Staff</h1>
 
-    <h1>The Medical Center has Seven Board Certified Physicians and Staff</h1>
-
-    <p>The Medical Center has seven <a href="http://www.mvmedcenter.org/team/physicians-staff/">board certified Physicians and Staff.</a> Dr. R.D. Marks, M.D. is the Chief of medical staff. The other providers are; Dr. Curtis Blake M.D., Dr. Patrick Holland M.D., OB/GYN, Dr. Maura Davenport M.D., Dr. DB Newton and PA-C's Marty Hensel and Pat Watson. You can support the Medical Center by making an appointment to have your medical needs met locally.</p>
+    <p>The Medical Center has six <a href="http://www.mvmedcenter.org/team/physicians-staff/">board certified Physicians and Staff.</a> Dr. R.D. Marks, M.D. is the Chief of medical staff. The other providers are; Dr. Curtis Blake M.D., Dr. Patrick Holland M.D., OB/GYN, Dr. Maura Davenport M.D., Dr. DB Newton and PA-C Marty Hensel. You can support the Medical Center by making an appointment to have your medical needs met locally.</p>
 
     <div class="row-centered">
       <div class="head-shot">
@@ -69,10 +67,6 @@
       <div class="head-shot">
         <img src="photos/hs_m_hensel_480_600.jpg" />
         <div class="picture-title">Marty Hensel<br />PA-C</div>
-      </div>
-      <div class="head-shot">
-        <img src="photos/hs_p_watson_480_600.jpg" />
-        <div class="picture-title">Patrick Watson<br />PA-C</div>
       </div>
     </div>
   </article>

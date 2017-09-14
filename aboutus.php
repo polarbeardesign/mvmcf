@@ -48,9 +48,6 @@
     <a href="#top" class="inner-nav">back to top</a>
     <h2>Governance &amp; Staff</h2>
 
-    <div class="photo-cell head-shot">
-      <img src="photos/hs_montag.jpg" alt="Kim Montag" /><div class="picture-title">Kim Montag<br />Foundation President</div>
-    </div>
     <p>The Madison Valley Medical Center Foundation was established in 1988 to generate private financial support for the then Madison Valley Hospital &amp; Clinic. The Foundation is a non-profit corporation, governed by an independent board of directors that administers all philanthropic gifts to the Madison Valley Medical Center and its programs.</p>
 
     <p>In 2005, the Foundation began a Capital Campaign to generate financial support for the new facility which successfully opened its doors in March of 2009. Through philanthropic partnerships, the Madison Valley Medical Center Foundation strives to ensure that services and programs at the Medical Center will continue to meet the needs of the people living in the Madison Valley and southwestern Montana.</p>
@@ -59,26 +56,22 @@
 
     <div class="row top-border">
       <div class="cell governance">
-       <h3>The Foundation<br />Board of Directors FY 2017</h3>
+       <h3>The Foundation<br />Board of Directors FY 2018</h3>
        <ul>
-         <li>Kim Montag,<br /><em>President</em></li>
-         <li>Amy Kelley,<br /><em>Vice President</em></li>
+         <li>Amy Kelley,<br /><em>President</em></li>
+         <li>Suz Richards,<br /><em>Vice President</em></li>
          <li>Tim Combs,<br /><em>Treasurer</em></li>
-         <li>Heidi Gildred,<br /><em>Secretary</em></li>
-         <li>Suz Richards</li>
+         <li>Susan Metzger,<br /><em>Secretary</em></li>
          <li>Josh Vujovich</li>
-         <li>Susan Metzger</li>
          <li>Dottie Fossel,<br /><em>MVMC Representative</em></li>
-         <li>Fred Donich,<br /><em>MVMC Representative</em></li>
+         <li>Jeff Montag,<br /><em>MVMC Representative</em></li>
          <li>Allen Rohrback,<br /><em>MVMC CEO</em></li>
         </ul>
       </div>
       <div class="cell governance"> 
         <h3>Staff</h3>
         <strong>Executive Director</strong><br />
-        <em>Christie S. Trapp</em><br />
         Phone: (406) 682-6630<br />
-        E-Mail: <a href="mailto:ctrapp@mvmcf.org">ctrapp@mvmcf.org</a><br />
       </div>
     </div>
   </article>
@@ -89,9 +82,9 @@
       
       <h1>What's New?</h1>
 
-      <a href="newsletters/MVMCF_Fiscal2015_annual_report_web.pdf" target="_blank"><img border="0" alt="FY14 Annual Report" src="newsletters/2015_annual_report_sm.jpg" width="169"style="display: block; margin: 0 auto;" longdesc="newsletters/MVMCF_Fiscal2015_annual_report_web.pdf" /></a>
-
-       <p style="text-align: center;"><a href="newsletters/MVMCF_Fiscal2015_annual_report_web.pdf" target="_blank">FY15 Annual Report</a></p>
+      <a href="newsletters/MVMCF_AnnualReportFY_2016.pdf" target="_blank"><img src="newsletters/2016_annual_report_sm.jpg" alt="2016 Annual Report" width="213" height="167" border="0" style="display: block; margin: 0 auto;"></a>
+      
+      <p style="text-align: center;"><a href="newsletters/MVMCF_AnnualReportFY_2016.pdf">2016 Annual Report</a></p>
 
       <?php include("sb_mvmc.php"); ?>
   </section>

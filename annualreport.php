@@ -53,21 +53,6 @@
       </div>
     </div>
 
-    <div class="annual-report">
-    <h2>2015</h2>
-    <p>Reports for the 2015 fiscal year (October 1, 2014 - September 30, 2015).
-      <div class="row row-sa">
-        <div class="annual-report-item">
-          <a href="newsletters/MVMCF_Fiscal2015_annual_report_web.pdf">2015 Annual Report</a><br />
-          <a href="newsletters/MVMCF_Fiscal2015_annual_report_web.pdf"><img src="newsletters/2015_annual_report_sm.jpg" alt="2014 Annual Report" width="213" height="167" border="0"></a>
-        </div>
-        <div class="annual-report-item">
-          <a href="newsletters/MVMCF_FY2015_Form_990.pdf">2015 Form 990</a><br />
-            <a href="newsletters/MVMCF_FY2015_Form_990.pdf"><img src="photos/form_990_curled.jpg" alt="2015 Form 990" width="228" height="233" border="0"></a>
-        </div>
-      </div>
-    </div>
-
   </article>
 
   <section class="sidebar">

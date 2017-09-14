@@ -33,15 +33,6 @@
     <hr />
 
     <h2>Newsletters</h2>
-    <div class="row">
-    <div class="cell" style="width: 30%;">
-    <p>Current</p>
-    <a href="newsletters/MV_Newsletter_2016_ONLINE.pdf"><img hspace="1" alt="The Madison Valley Medical Center Newsletter" vspace="1" src="img/2016_newsletter_thumb.jpg" width="169" height="217" alt="2016Newsletter" /></a>
-
-    </div>
-    <div class="cell" style="border-left: 1px solid #ddd; padding: 0 2em; width: 60%;">
-        <p><a href="newsletters/MV_Newsletter_2016_ONLINE.pdf">MVMCF Newsletter 2016</a></p>
-    </div></div>
 
   </article>
 
